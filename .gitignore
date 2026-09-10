@@ -1,0 +1,31 @@
+# .gitignore — files Git should ignore (not track, not commit).
+# These are left over from earlier builds and are not used by the live site.
+# Verified on 2026-09-10: the live entry assets/main-CMwPpEdk.js loads a
+# DIFFERENT hash of each of these, so nothing on the site references them.
+# They stay on disk; Git simply ignores them.
+
+# --- Orphaned build bundles (14 files, ~402 KB) ---
+assets/Energy-CjxpTG4K.js
+assets/Exporters-CAdqxUlk.js
+assets/Farmers-CNqdH5ni.js
+assets/Farmers-DEXdsS3R.js
+assets/Hubs-DsP7MkMu.js
+assets/Hubs-znNNKBuz.js
+assets/Notices-BveC0sej.js
+assets/Overview-eXpuwNza.js
+assets/Processors-Cg6MXAJJ.js
+assets/RequirementModal-BYtd9d78.js
+assets/Story-DdJ10lRc.js
+assets/main-BEejQR9d.css
+assets/main-CBGqcJEJ.js
+assets/main-D4mXORkB.js
+
+# --- Unused images (5 files, ~890 KB): referenced by no bundle ---
+img/charpai.jpg
+img/chili-shed.jpg
+img/sindh-hub.jpg
+img/trainer-briefing.jpg
+img/training-group.jpg
+
+# --- The leftover-files note itself ---
+_leftover files you can delete.txt
