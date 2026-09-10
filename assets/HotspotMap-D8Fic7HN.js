@@ -1,1 +1,214 @@
-import{r as e,t}from"./vendor-Bfx28lbG.js";var n=e(),r=[{id:`chili`,name:`Chili`,status:`active`,farmerLoss:`Price swings`,farmerDetail:[`Weather risk on open-ground drying`,`Careful picking earns no premium in the mandi`,`Unfamiliar client varieties feel risky to try`],buyerLoss:`Aflatoxin, MRL, and varieties nobody grows`,buyerDetail:[`Moisture inconsistency, lot to lot`,`Adulteration risk in the open trade`,`MRL to EU / China / Gulf limits: an open-market lot cannot answer for a single spray`],fix:`A buyer-locked cluster kills the swing. Controlled hub drying and residue regimes kill the afla. And when a client needs a variety the market never grows, the requirement plants the field.`},{id:`tomato`,name:`Tomato`,status:`active`,farmerLoss:`Price crash & an unreliable market`,farmerDetail:[`Everyone sows the same week, so the glut arrives at peak`,`Hours to sell before spoilage`,`Transport to a distant mandi eats the margin`],buyerLoss:`Right variety & quality for paste`,buyerDetail:[`Paste season too short, so the plant idles`,`Table varieties give low brix`,`No staggered supply calendar exists`],fix:`Processing varieties grown on contract, sowing staggered across the cluster, and semi-processing at the hub. His supply problem becomes the farmer’s guaranteed market.`},{id:`turmeric`,name:`Turmeric`,status:`active`,farmerLoss:`Low yield & price swing`,farmerDetail:[`A 9-month cycle locks his cash all year`,`Seed rhizome cost and quality gamble`,`Crude polishing loses value`],buyerLoss:`Curcumin content & residue traces`,buyerDetail:[`Buying blind, with curcumin untested at purchase`,`Adulteration fear`,`Moisture and mold in storage`,`Residues and adulterants surface in the buyer’s lab, after payment`],fix:`Variety and nutrition planning lift yield and curcumin together; the hub tests curcumin before sale and pays the premium; embedded working capital carries the long cycle.`},{id:`fenugreek`,name:`Fenugreek`,status:`active`,farmerLoss:`No organized market`,farmerDetail:[`Grown as an afterthought, with no advisory for it anywhere`,`Sold in tiny scattered lots at whatever’s offered`],buyerLoss:`Purity, foreign matter & MRL`,buyerDetail:[`Dust and FM in every mandi lot`,`MRL to EU limits, and a scattered lot has no spray history at all`,`Serious volume can’t be aggregated from scattered growers`],fix:`The first organized advisory and aggregation this crop has ever had: hub cleaning to a purity spec, grown under a recorded spray regime and lab-screened against 600+ compounds before sale.`},{id:`sugarcane`,name:`Sugarcane`,status:`active`,farmerLoss:`Low yield & ratoon decline`,farmerDetail:[`Blanket fertilization drives the decline`,`Late crush schedules degrade standing cane`,`No soil-specific plan exists`],buyerLoss:`Low recovery / sucrose`,buyerDetail:[`Stale, late-delivered cane drops recovery`,`Trash percentage`,`Unsuitable varietal mix`],fix:`One agronomy fix, two wins: soil-database nutrition and practices raise the farmer’s tonnage and the buyer’s recovery from the same field, with variety and harvest calendar aligned to the crush.`},{id:`corn`,name:`Corn`,status:`active`,farmerLoss:`Harvest-glut price`,farmerDetail:[`Everyone harvests the same weeks, so the glut is structural`,`Field drying invites afla before he even sells`,`Opaque deductions at the silo gate`],buyerLoss:`Aflatoxin, moisture & MRL across starch · food · export · oil`,buyerDetail:[`Four industries compete for one uneven quality pool`,`Moisture claims disputed lot by lot`,`Residue limits stack on top of afla, each destination its own line to clear`],fix:`Offtake spread across four demand streams flattens the glut; hub drying to contracted moisture ends the gate disputes; every lot tested before dispatch, not after complaint.`},{id:`sesame`,name:`Sesame`,status:`active`,farmerLoss:`Shattering & harvest losses`,farmerDetail:[`A days-precise harvest window, where lateness is punished and nobody teaches the timing`,`Manual harvest labor peak`,`Managed as a side crop`],buyerLoss:`Purity & FM for export`,buyerDetail:[`Export purity (99/1) unachievable from mandi lots`,`Mixed seed-color grades`,`Residue unknowns for premium destinations`],fix:`Field-team supervised harvest timing per cluster, hub cleaning to export purity, and residue-controlled regimes from sowing.`},{id:`guava`,name:`Guava`,status:`active`,farmerLoss:`Low yield & no high-density skills`,farmerDetail:[`Traditional low-density orchards yield a fraction of potential`,`Pruning and canopy skills absent`,`Fruit fly losses at ripening`],buyerLoss:`Consistent supply & varietal integrity`,buyerDetail:[`Mixed varieties in every lot break pulp consistency`,`Supply concentrated in short flushes`,`Uneven maturity at harvest`],fix:`High-density orchard development with a skills program, single-variety cluster blocks to guard integrity, and staggered flush management.`},{id:`energy`,name:`Energy Crops`,status:`active`,farmerLoss:`Land that earns nothing`,farmerDetail:[`No seed or agronomy exists for these crops`,`Locking land into an unproven crop feels like a gamble`],buyerLoss:`No clarity on crop, calorific value or acreage`,buyerDetail:[`Long-term fuel contracts can’t stand on scattered spot biomass`,`Moisture and calorific variation break boiler economics`],fix:`Crop shortlisting and trials remove the fog before scale; dedicated clusters on idle land give the buyer consistent acreage, and the farmer his first income from it.`},{id:`plum`,name:`Plum`,status:`dev`,farmerLoss:`Scattered small volumes, poor market access`,farmerDetail:[`Mountain orchards fragmented across valleys, with no single truckload from one grower`,`A narrow window and long roads`],buyerLoss:`Variety & taste profile`,buyerDetail:[`The profile needs specific varieties on specific rootstock, which takes years`,`No precedent chain to copy`],fix:`Rootstock trials underway in Gilgit-Baltistan. Valley-level aggregation in design. The buyer’s requirement is what puts the orchard in the ground.`},{id:`oilseeds`,name:`Oilseeds`,status:`dev`,farmerLoss:`Competing crops, poor seed, no market ecosystem`,farmerDetail:[`Wheat holds the acreage by default, and switching feels like betting the season`,`No nearby buyer means no price discovery at all`],buyerLoss:`No volumes and no right crops, while imports pour in`,buyerDetail:[`Import-parity pricing leaves no local benchmark`,`Quality specs never measured at farm level`],fix:`In development. The right varieties exist through our partners; what was missing is the chain, and we’re building it: cluster offtake with economics that beat the competing crop. Canola · sunflower · soybean for food oil, grown to displace the oil Pakistan imports today, plus castor, a non-food industrial oil with its own domestic buyers: cluster identified, seed banks in place, agronomy worked out, trial volumes already moving to oil extractors. A demand-pulled chain, built to a client need, on land food crops leave behind.`}],i=t();function a({role:e,only:t}){let a=t?r.filter(e=>t.includes(e.id)):r,[o,s]=(0,n.useState)(a[0].id),c=a.find(e=>e.id===o)||a[0];return(0,i.jsxs)(`div`,{className:`grid gap-5`,children:[(0,i.jsx)(`div`,{className:`flex flex-wrap gap-2`,children:a.map(e=>(0,i.jsxs)(`button`,{onClick:()=>s(e.id),className:`btn ${e.id===o?`on`:``}`,style:e.status===`dev`&&e.id!==o?{borderStyle:`dashed`,opacity:.7}:void 0,children:[e.name,e.status===`dev`?` ◌`:``]},e.id))}),(0,i.jsxs)(`div`,{className:`grid md:grid-cols-2 gap-4`,children:[(0,i.jsxs)(`div`,{className:`relative overflow-hidden rounded-lg p-5 ${e===`buyer`?`opacity-55`:``}`,style:{background:`rgba(255,107,61,0.07)`,border:`1px solid var(--rust-glow)`},children:[(0,i.jsx)(`div`,{className:`absolute inset-0 glow-rust ember pointer-events-none`,style:{"--gx":`15%`,"--gy":`0%`}}),(0,i.jsxs)(`div`,{className:`relative`,children:[(0,i.jsx)(`div`,{className:`cap mb-2`,style:{color:`var(--rust)`},children:`THE FARMER'S LOSS`}),(0,i.jsx)(`h4`,{className:`text-[1.05rem] font-bold mb-2`,children:c.farmerLoss}),(0,i.jsx)(`ul`,{className:`grid gap-1.5 text-[0.9rem] dim m-0 pl-4`,children:c.farmerDetail.map((e,t)=>(0,i.jsx)(`li`,{children:e},t))})]})]}),(0,i.jsxs)(`div`,{className:`relative overflow-hidden rounded-lg p-5 ${e===`farmer`?`opacity-55`:``}`,style:{background:`rgba(255,107,61,0.07)`,border:`1px solid var(--rust-glow)`},children:[(0,i.jsx)(`div`,{className:`absolute inset-0 glow-rust ember pointer-events-none`,style:{"--gx":`85%`,"--gy":`0%`}}),(0,i.jsxs)(`div`,{className:`relative`,children:[(0,i.jsx)(`div`,{className:`cap mb-2`,style:{color:`var(--rust)`},children:`THE BUYER'S LOSS`}),(0,i.jsx)(`h4`,{className:`text-[1.05rem] font-bold mb-2`,children:c.buyerLoss}),(0,i.jsx)(`ul`,{className:`grid gap-1.5 text-[0.9rem] dim m-0 pl-4`,children:c.buyerDetail.map((e,t)=>(0,i.jsx)(`li`,{children:e},t))})]})]})]}),(0,i.jsxs)(`div`,{className:`panel p-5`,style:{borderColor:c.status===`dev`?`var(--gold)`:`var(--green)`},children:[(0,i.jsx)(`div`,{className:`cap mb-2`,style:{color:c.status===`dev`?`var(--gold)`:`var(--green-2)`},children:c.status===`dev`?`IN DEVELOPMENT`:`THE VGREEN RESPONSE`}),(0,i.jsx)(`p`,{className:`m-0 text-[0.98rem]`,children:c.fix})]}),(0,i.jsx)(`div`,{className:`cap`,children:`● Active · ◌ Developing · 9 chains live, 2 in development`})]})}export{a as t};
+import {
+  r as e,
+  t
+} from "./vendor-Bfx28lbG.js";
+var n = e(),
+  r = [{
+    id: `chili`,
+    name: `Chili`,
+    status: `active`,
+    farmerLoss: `Price swings`,
+    farmerDetail: [`Weather risk on open-ground drying`, `Careful picking earns no premium in the mandi`, `Unfamiliar client varieties feel risky to try`],
+    buyerLoss: `Aflatoxin, MRL, and varieties nobody grows`,
+    buyerDetail: [`Moisture inconsistency, lot to lot`, `Adulteration risk in the open trade`, `MRL to EU / China / Gulf limits: an open-market lot cannot answer for a single spray`],
+    fix: `A buyer-locked cluster kills the swing. Controlled hub drying and residue regimes kill the afla. And when a client needs a variety the market never grows, the requirement plants the field.`
+  }, {
+    id: `tomato`,
+    name: `Tomato`,
+    status: `active`,
+    farmerLoss: `Price crash & an unreliable market`,
+    farmerDetail: [`Everyone sows the same week, so the glut arrives at peak`, `Hours to sell before spoilage`, `Transport to a distant mandi eats the margin`],
+    buyerLoss: `Right variety & quality for paste`,
+    buyerDetail: [`Paste season too short, so the plant idles`, `Table varieties give low brix`, `No staggered supply calendar exists`],
+    fix: `Processing varieties grown on contract, sowing staggered across the cluster, and semi-processing at the hub. His supply problem becomes the farmer’s guaranteed market.`
+  }, {
+    id: `turmeric`,
+    name: `Turmeric`,
+    status: `active`,
+    farmerLoss: `Low yield & price swing`,
+    farmerDetail: [`A 9-month cycle locks his cash all year`, `Seed rhizome cost and quality gamble`, `Crude polishing loses value`],
+    buyerLoss: `Curcumin content & residue traces`,
+    buyerDetail: [`Buying blind, with curcumin untested at purchase`, `Adulteration fear`, `Moisture and mold in storage`, `Residues and adulterants surface in the buyer’s lab, after payment`],
+    fix: `Variety and nutrition planning lift yield and curcumin together; the hub tests curcumin before sale and pays the premium; embedded working capital carries the long cycle.`
+  }, {
+    id: `fenugreek`,
+    name: `Fenugreek`,
+    status: `active`,
+    farmerLoss: `No organized market`,
+    farmerDetail: [`Grown as an afterthought, with no advisory for it anywhere`, `Sold in tiny scattered lots at whatever’s offered`],
+    buyerLoss: `Purity, foreign matter & MRL`,
+    buyerDetail: [`Dust and FM in every mandi lot`, `MRL to EU limits, and a scattered lot has no spray history at all`, `Serious volume can’t be aggregated from scattered growers`],
+    fix: `The first organized advisory and aggregation this crop has ever had: hub cleaning to a purity spec, grown under a recorded spray regime and lab-screened against 600+ compounds before sale.`
+  }, {
+    id: `sugarcane`,
+    name: `Sugarcane`,
+    status: `active`,
+    farmerLoss: `Low yield & ratoon decline`,
+    farmerDetail: [`Blanket fertilization drives the decline`, `Late crush schedules degrade standing cane`, `No soil-specific plan exists`],
+    buyerLoss: `Low recovery / sucrose`,
+    buyerDetail: [`Stale, late-delivered cane drops recovery`, `Trash percentage`, `Unsuitable varietal mix`],
+    fix: `One agronomy fix, two wins: soil-database nutrition and practices raise the farmer’s tonnage and the buyer’s recovery from the same field, with variety and harvest calendar aligned to the crush.`
+  }, {
+    id: `corn`,
+    name: `Corn`,
+    status: `active`,
+    farmerLoss: `Harvest-glut price`,
+    farmerDetail: [`Everyone harvests the same weeks, so the glut is structural`, `Field drying invites afla before he even sells`, `Opaque deductions at the silo gate`],
+    buyerLoss: `Aflatoxin, moisture & MRL across starch · food · export · oil`,
+    buyerDetail: [`Four industries compete for one uneven quality pool`, `Moisture claims disputed lot by lot`, `Residue limits stack on top of afla, each destination its own line to clear`],
+    fix: `Offtake spread across four demand streams flattens the glut; hub drying to contracted moisture ends the gate disputes; every lot tested before dispatch, not after complaint.`
+  }, {
+    id: `sesame`,
+    name: `Sesame`,
+    status: `active`,
+    farmerLoss: `Shattering & harvest losses`,
+    farmerDetail: [`A days-precise harvest window, where lateness is punished and nobody teaches the timing`, `Manual harvest labor peak`, `Managed as a side crop`],
+    buyerLoss: `Purity & FM for export`,
+    buyerDetail: [`Export purity (99/1) unachievable from mandi lots`, `Mixed seed-color grades`, `Residue unknowns for premium destinations`],
+    fix: `Field-team supervised harvest timing per cluster, hub cleaning to export purity, and residue-controlled regimes from sowing.`
+  }, {
+    id: `guava`,
+    name: `Guava`,
+    status: `active`,
+    farmerLoss: `Low yield & no high-density skills`,
+    farmerDetail: [`Traditional low-density orchards yield a fraction of potential`, `Pruning and canopy skills absent`, `Fruit fly losses at ripening`],
+    buyerLoss: `Consistent supply & varietal integrity`,
+    buyerDetail: [`Mixed varieties in every lot break pulp consistency`, `Supply concentrated in short flushes`, `Uneven maturity at harvest`],
+    fix: `High-density orchard development with a skills program, single-variety cluster blocks to guard integrity, and staggered flush management.`
+  }, {
+    id: `energy`,
+    name: `Energy Crops`,
+    status: `active`,
+    farmerLoss: `Land that earns nothing`,
+    farmerDetail: [`No seed or agronomy exists for these crops`, `Locking land into an unproven crop feels like a gamble`],
+    buyerLoss: `No clarity on crop, calorific value or acreage`,
+    buyerDetail: [`Long-term fuel contracts can’t stand on scattered spot biomass`, `Moisture and calorific variation break boiler economics`],
+    fix: `Crop shortlisting and trials remove the fog before scale; dedicated clusters on idle land give the buyer consistent acreage, and the farmer his first income from it.`
+  }, {
+    id: `plum`,
+    name: `Plum`,
+    status: `dev`,
+    farmerLoss: `Scattered small volumes, poor market access`,
+    farmerDetail: [`Mountain orchards fragmented across valleys, with no single truckload from one grower`, `A narrow window and long roads`],
+    buyerLoss: `Variety & taste profile`,
+    buyerDetail: [`The profile needs specific varieties on specific rootstock, which takes years`, `No precedent chain to copy`],
+    fix: `Rootstock trials underway in Gilgit-Baltistan. Valley-level aggregation in design. The buyer’s requirement is what puts the orchard in the ground.`
+  }, {
+    id: `oilseeds`,
+    name: `Oilseeds`,
+    status: `dev`,
+    farmerLoss: `Competing crops, poor seed, no market ecosystem`,
+    farmerDetail: [`Wheat holds the acreage by default, and switching feels like betting the season`, `No nearby buyer means no price discovery at all`],
+    buyerLoss: `No volumes and no right crops, while imports pour in`,
+    buyerDetail: [`Import-parity pricing leaves no local benchmark`, `Quality specs never measured at farm level`],
+    fix: `In development. The right varieties exist through our partners; what was missing is the chain, and we’re building it: cluster offtake with economics that beat the competing crop. Canola · sunflower · soybean for food oil, grown to displace the oil Pakistan imports today, plus castor, a non-food industrial oil with its own domestic buyers: cluster identified, seed banks in place, agronomy worked out, trial volumes already moving to oil extractors. A demand-pulled chain, built to a client need, on land food crops leave behind.`
+  }],
+  i = t();
+
+function a({
+  role: e,
+  only: t
+}) {
+  let a = t ? r.filter(e => t.includes(e.id)) : r,
+    [o, s] = (0, n.useState)(a[0].id),
+    c = a.find(e => e.id === o) || a[0];
+  return (0, i.jsxs)(`div`, {
+    className: `grid gap-5`,
+    children: [(0, i.jsx)(`div`, {
+      className: `flex flex-wrap gap-2`,
+      children: a.map(e => (0, i.jsxs)(`button`, {
+        onClick: () => s(e.id),
+        className: `btn ${e.id===o?`on`:``}`,
+        style: e.status === `dev` && e.id !== o ? {
+          borderStyle: `dashed`,
+          opacity: .7
+        } : void 0,
+        children: [e.name, e.status === `dev` ? ` ◌` : ``]
+      }, e.id))
+    }), (0, i.jsxs)(`div`, {
+      className: `grid md:grid-cols-2 gap-4`,
+      children: [(0, i.jsxs)(`div`, {
+        className: `relative overflow-hidden rounded-lg p-5 ${e===`buyer`?`opacity-55`:``}`,
+        style: {
+          background: `rgba(255,107,61,0.07)`,
+          border: `1px solid var(--rust-glow)`
+        },
+        children: [(0, i.jsx)(`div`, {
+          className: `absolute inset-0 glow-rust ember pointer-events-none`,
+          style: {
+            "--gx": `15%`,
+            "--gy": `0%`
+          }
+        }), (0, i.jsxs)(`div`, {
+          className: `relative`,
+          children: [(0, i.jsx)(`div`, {
+            className: `cap mb-2`,
+            style: {
+              color: `var(--rust)`
+            },
+            children: `THE FARMER'S LOSS`
+          }), (0, i.jsx)(`h4`, {
+            className: `text-[1.05rem] font-bold mb-2`,
+            children: c.farmerLoss
+          }), (0, i.jsx)(`ul`, {
+            className: `grid gap-1.5 text-[0.9rem] dim m-0 pl-4`,
+            children: c.farmerDetail.map((e, t) => (0, i.jsx)(`li`, {
+              children: e
+            }, t))
+          })]
+        })]
+      }), (0, i.jsxs)(`div`, {
+        className: `relative overflow-hidden rounded-lg p-5 ${e===`farmer`?`opacity-55`:``}`,
+        style: {
+          background: `rgba(255,107,61,0.07)`,
+          border: `1px solid var(--rust-glow)`
+        },
+        children: [(0, i.jsx)(`div`, {
+          className: `absolute inset-0 glow-rust ember pointer-events-none`,
+          style: {
+            "--gx": `85%`,
+            "--gy": `0%`
+          }
+        }), (0, i.jsxs)(`div`, {
+          className: `relative`,
+          children: [(0, i.jsx)(`div`, {
+            className: `cap mb-2`,
+            style: {
+              color: `var(--rust)`
+            },
+            children: `THE BUYER'S LOSS`
+          }), (0, i.jsx)(`h4`, {
+            className: `text-[1.05rem] font-bold mb-2`,
+            children: c.buyerLoss
+          }), (0, i.jsx)(`ul`, {
+            className: `grid gap-1.5 text-[0.9rem] dim m-0 pl-4`,
+            children: c.buyerDetail.map((e, t) => (0, i.jsx)(`li`, {
+              children: e
+            }, t))
+          })]
+        })]
+      })]
+    }), (0, i.jsxs)(`div`, {
+      className: `panel p-5`,
+      style: {
+        borderColor: c.status === `dev` ? `var(--gold)` : `var(--green)`
+      },
+      children: [(0, i.jsx)(`div`, {
+        className: `cap mb-2`,
+        style: {
+          color: c.status === `dev` ? `var(--gold)` : `var(--green-2)`
+        },
+        children: c.status === `dev` ? `IN DEVELOPMENT` : `THE VGREEN RESPONSE`
+      }), (0, i.jsx)(`p`, {
+        className: `m-0 text-[0.98rem]`,
+        children: c.fix
+      })]
+    }), (0, i.jsx)(`div`, {
+      className: `cap`,
+      children: `● Active · ◌ Developing · 9 chains live, 2 in development`
+    })]
+  })
+}
+export {
+  a as t
+};

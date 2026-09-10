@@ -1,1 +1,835 @@
-import{r as e,t}from"./vendor-Bfx28lbG.js";import{t as n}from"./CalmBackdrop-CDqYysf7.js";var r=e(),i=t();function a(){let e=(0,r.useId)().replace(/:/g,``),t=`M175 330 C 340 330, 380 250, 500 240 S 680 300, 820 215 S 1010 125, 1120 142 S 1180 112, 1215 100`,n=`${t} L1400 100 L1400 420 L0 420 Z`;return(0,i.jsx)(`div`,{className:`absolute inset-x-0 bottom-0 h-[56%] pointer-events-none overflow-hidden`,"aria-hidden":!0,children:(0,i.jsxs)(`svg`,{viewBox:`0 0 1400 420`,preserveAspectRatio:`xMidYMid slice`,className:`absolute inset-0 w-full h-full`,children:[(0,i.jsxs)(`defs`,{children:[(0,i.jsxs)(`linearGradient`,{id:`fade-${e}`,x1:`0`,y1:`0`,x2:`0`,y2:`1`,children:[(0,i.jsx)(`stop`,{offset:`0`,stopColor:`#06110B`,stopOpacity:`1`}),(0,i.jsx)(`stop`,{offset:`0.38`,stopColor:`#06110B`,stopOpacity:`0`})]}),(0,i.jsxs)(`radialGradient`,{id:`glow-${e}`,children:[(0,i.jsx)(`stop`,{offset:`0`,stopColor:`#FFD27A`,stopOpacity:`0.5`}),(0,i.jsx)(`stop`,{offset:`1`,stopColor:`#FFB627`,stopOpacity:`0`})]}),(0,i.jsxs)(`linearGradient`,{id:`ground-${e}`,x1:`0`,y1:`0`,x2:`0`,y2:`1`,children:[(0,i.jsx)(`stop`,{offset:`0`,stopColor:`#35C776`,stopOpacity:`0.2`}),(0,i.jsx)(`stop`,{offset:`1`,stopColor:`#35C776`,stopOpacity:`0`})]})]}),(0,i.jsx)(`circle`,{cx:`1180`,cy:`150`,r:`190`,fill:`url(#glow-${e})`}),Array.from({length:5}).map((e,t)=>Array.from({length:24}).map((e,n)=>(0,i.jsx)(`circle`,{cx:30+n*60,cy:200+t*52,r:`1.4`,fill:`#EEF3EC`,opacity:`0.14`},`${t}-${n}`))),(0,i.jsx)(`path`,{d:n,fill:`url(#ground-${e})`}),(0,i.jsx)(`path`,{d:t,fill:`none`,stroke:`#7FE3A8`,strokeOpacity:`0.22`,strokeWidth:`9`,strokeLinecap:`round`}),(0,i.jsx)(`path`,{d:t,fill:`none`,stroke:`#7FE3A8`,strokeOpacity:`0.65`,strokeWidth:`2`,strokeDasharray:`1 10`,strokeLinecap:`round`}),(0,i.jsxs)(`g`,{transform:`translate(175 330)`,children:[(0,i.jsx)(`path`,{d:`M0 0 C -14 -8 -14 -26 -2 -34 C 4 -22 2 -8 0 0 Z`,fill:`#35C776`,opacity:`0.85`}),(0,i.jsx)(`path`,{d:`M0 0 C 12 -6 14 -20 4 -28 C -1 -18 -1 -6 0 0 Z`,fill:`#7FE3A8`,opacity:`0.75`}),(0,i.jsx)(`circle`,{r:`4`,fill:`#0A1911`,stroke:`#7FE3A8`,strokeWidth:`2`}),(0,i.jsx)(`text`,{y:`-46`,textAnchor:`middle`,fontSize:`12`,fontFamily:`'JetBrains Mono', monospace`,fill:`#7FE3A8`,opacity:`0.9`,children:`2018`})]}),[[500,240,`2019`],[820,215,`2021`],[1120,142,`2025`]].map(([e,t,n])=>(0,i.jsxs)(`g`,{transform:`translate(${e} ${t})`,children:[(0,i.jsx)(`circle`,{r:`7`,fill:`#0A1911`,stroke:`#7FE3A8`,strokeWidth:`2`}),(0,i.jsx)(`text`,{y:`-18`,textAnchor:`middle`,fontSize:`12`,fontFamily:`'JetBrains Mono', monospace`,fill:`#7FE3A8`,opacity:`0.9`,children:n})]},n)),(0,i.jsxs)(`g`,{transform:`translate(1215 100)`,children:[[[-30,20],[28,24],[0,-30]].map(([e,t],n)=>(0,i.jsxs)(`g`,{children:[(0,i.jsx)(`line`,{x1:`0`,y1:`0`,x2:e,y2:t,stroke:`#FFB627`,strokeOpacity:`0.5`,strokeWidth:`1.5`}),(0,i.jsx)(`circle`,{cx:e,cy:t,r:`4.5`,fill:`#FFB627`,opacity:`0.75`})]},n)),(0,i.jsx)(`circle`,{r:`13`,fill:`none`,stroke:`#FFB627`,strokeWidth:`2`}),(0,i.jsx)(`circle`,{r:`6`,fill:`#FFB627`}),(0,i.jsx)(`text`,{y:`-46`,textAnchor:`middle`,fontSize:`12.5`,fontWeight:700,fontFamily:`'JetBrains Mono', monospace`,fill:`#FFD27A`,children:`TODAY`})]}),(0,i.jsx)(`rect`,{width:`1400`,height:`420`,fill:`url(#fade-${e})`})]})})}var o=[[`miles`,`The crop travels out raw, hours from the field, before anyone adds value to it.`],[`capability`,`Grading, drying, testing and contracting are skills concentrated in the cities and largely absent from the villages.`],[`infrastructure`,`No dryer, no cold store, no testing bench within reach of the farm gate.`],[`knowledge`,`The buyer knows the spec. The farmer learns it after the truck is rejected.`],[`finance`,`The season is funded by the person who will also set the price at harvest.`],[`access to technology`,`Traceability, residue screening and field records are all available in the market, and none of them near the farm.`]];function s(){let[e,t]=(0,r.useState)(0),n=.55+e*.07;return(0,i.jsxs)(`div`,{className:`grid lg:grid-cols-[1.25fr_0.75fr] gap-8 items-start`,children:[(0,i.jsx)(`figure`,{className:`fig panel p-4 md:p-6 m-0`,children:(0,i.jsxs)(`svg`,{viewBox:`0 0 720 230`,role:`img`,"aria-label":`The farmer at one end, the market at the other, and a widening empty middle between them`,children:[(0,i.jsx)(`defs`,{children:(0,i.jsx)(`pattern`,{id:`gapdots`,width:`10`,height:`10`,patternUnits:`userSpaceOnUse`,children:(0,i.jsx)(`circle`,{cx:`2`,cy:`2`,r:`1`,fill:`rgba(255,107,61,0.45)`})})}),(0,i.jsx)(`rect`,{x:160,y:110-46*n,width:400,height:92*n,rx:`8`,fill:`url(#gapdots)`,stroke:`var(--rust)`,strokeDasharray:`6 5`,strokeWidth:`1.5`,className:`dash`,opacity:`0.9`}),(0,i.jsx)(`text`,{x:360,y:100,textAnchor:`middle`,fontSize:`11`,fill:`var(--rust)`,fontFamily:`JetBrains Mono, monospace`,letterSpacing:`0.14em`,children:`THE MIDDLE: MOSTLY NOTHING`}),(0,i.jsx)(`text`,{x:360,y:118,textAnchor:`middle`,fontSize:`9.5`,fill:`var(--dim)`,fontFamily:`JetBrains Mono, monospace`,children:`post-harvest loss · no infrastructure`}),(0,i.jsx)(`text`,{x:360,y:132,textAnchor:`middle`,fontSize:`9.5`,fill:`var(--dim)`,fontFamily:`JetBrains Mono, monospace`,children:`no near-farm enterprise · no processing near the field`}),(0,i.jsx)(`circle`,{cx:90,cy:110,r:`30`,fill:`var(--surface-2)`,stroke:`var(--green)`,strokeWidth:`2`}),(0,i.jsx)(`text`,{x:90,y:114,textAnchor:`middle`,fontSize:`11`,fontWeight:`700`,fill:`var(--text)`,children:`FARMER`}),(0,i.jsx)(`text`,{x:90,y:162,textAnchor:`middle`,fontSize:`10`,fill:`var(--dim-2)`,fontFamily:`JetBrains Mono, monospace`,children:`bottom of the chain`}),(0,i.jsx)(`rect`,{x:588,y:80,width:`84`,height:`60`,rx:`8`,fill:`var(--surface-2)`,stroke:`var(--gold)`,strokeWidth:`2`}),(0,i.jsx)(`text`,{x:630,y:114,textAnchor:`middle`,fontSize:`11`,fontWeight:`700`,fill:`var(--text)`,children:`MARKET`}),(0,i.jsx)(`text`,{x:630,y:162,textAnchor:`middle`,fontSize:`10`,fill:`var(--dim-2)`,fontFamily:`JetBrains Mono, monospace`,children:`processors · exporters · brands · finance`}),(0,i.jsx)(`line`,{x1:124,x2:584,y1:186,y2:186,stroke:`var(--line-2)`,strokeWidth:`1`}),(0,i.jsxs)(`text`,{x:360,y:202,textAnchor:`middle`,fontSize:`10`,fill:`var(--dim)`,fontFamily:`JetBrains Mono, monospace`,letterSpacing:`0.1em`,children:[`THE DISTANCE KEEPS WIDENING IN `,o[e][0].toUpperCase()]})]})}),(0,i.jsxs)(`div`,{className:`grid gap-3`,children:[(0,i.jsx)(`div`,{className:`cap`,children:`The gap has several dimensions.`}),(0,i.jsx)(`div`,{className:`flex flex-wrap gap-2`,children:o.map(([n],r)=>(0,i.jsx)(`button`,{className:`btn ${r===e?`on`:``}`,onClick:()=>t(r),"aria-pressed":r===e,children:n},n))}),(0,i.jsxs)(`div`,{className:`panel p-5 frame-in`,children:[(0,i.jsx)(`div`,{className:`eyebrow mb-2`,children:o[e][0]}),(0,i.jsx)(`p`,{className:`m-0 text-[1rem] leading-relaxed`,children:o[e][1]})]},e)]})]})}var c=[{k:`tomato`,tag:`The tomato contradiction`,front:`Fields rot unsold. The paste is imported.`,back:`Farmers grow tomatoes that go to waste, with no shelter for the crop and no buyer standing behind it. Ketchup manufacturers meanwhile import their paste, because they see no viable tomato supply in Pakistan.`},{k:`chili`,tag:`The chili contradiction`,front:`The crop is lost to fungus. The demand is met by imports.`,back:`Chili is lost to fungus and aflatoxin, and cyclical price shocks hit growers hard, while processors import chili to meet local demand. Taking Pakistani chili to global markets is not yet a realistic prospect.`}];function l(){let[e,t]=(0,r.useState)(null);return(0,i.jsxs)(`div`,{className:`grid gap-5`,children:[(0,i.jsx)(`div`,{className:`grid md:grid-cols-2 gap-4`,children:c.map(n=>{let r=e===n.k;return(0,i.jsxs)(`button`,{onClick:()=>t(r?null:n.k),"aria-expanded":r,className:`panel text-left p-6 grid gap-3 transition-colors`,style:{borderColor:r?`var(--rust)`:void 0,background:r?`rgba(255,107,61,0.06)`:void 0,cursor:`pointer`},children:[(0,i.jsx)(`span`,{className:`cap`,style:{color:`var(--rust)`},children:n.tag}),(0,i.jsx)(`span`,{className:`display text-[1.35rem] leading-tight`,children:n.front}),(0,i.jsx)(`span`,{className:`dim text-[0.98rem] leading-relaxed ${r?`frame-in`:``}`,style:{display:r?`block`:`none`},children:n.back}),(0,i.jsx)(`span`,{className:`cap`,"aria-hidden":`true`,style:{color:r?`var(--gold)`:`var(--dim-2)`},children:r?`−`:`+`})]},n.k)})}),(0,i.jsx)(`p`,{className:`m-0 dim text-[1rem] max-w-[72ch]`,children:`Agricultural exports remain stagnant, and in places declining, because the quality layer is missing from the ecosystem.`})]})}var u=[{n:`01`,name:`The first hub`,when:`the first cluster`,state:`live`,built:`VGreen. The village was asked to put in land or a building and declined, so VGreen built on its own land, with its own machines.`,owns:`VGreen, as a division of the company. Farmers use it; quality-seeking buyers contract through it.`,vg:`Builder, owner and operator, serving both the farmer and the buyer.`,note:`The lesson: a hub can start without local ownership, but trust has to be earned on the ground before anyone will co-invest.`},{n:`02`,name:`The second hub`,when:`the second cluster`,state:`live`,built:`Farmers gave the land. VGreen built the structure. A development partner funded the dryer and the cold store.`,owns:`Shared: farmer land under a VGreen-built shed, with partner-funded assets inside it.`,vg:`Builder and operator; the first hub where farmers put something of their own on the table.`,note:`The lesson: once a buyer and a working hub exist next door, farmers contribute land they would never have pledged to a stranger.`},{n:`03`,name:`The third hub`,when:`the third cluster`,state:`live`,built:`Farmers pooled it themselves, and then deadlocked on decisions.`,owns:`The farmers. VGreen came in as mediator and operator: they own it, VGreen runs it.`,vg:`Operator by invitation, carrying the governance work that no structure was yet performing.`,note:`The lesson: ownership without a decision-making structure stalls. Governance is the part of the model still being worked out.`},{n:`04`,name:`The fourth hub`,when:`the fourth cluster`,state:`live`,built:`One farmer built it step by step with his own capital, as a rural SME in the making.`,owns:`He does. He serves 100+ farmers and growing. VGreen contracts him; he sub-contracts the farmers around him and runs the hub as a business unit.`,vg:`Service partner: buyer access, inputs, harvest services, tracing and documentation.`,note:`The lesson: a hub can be run as a private business as readily as a cooperative. That is the "rural SME" the model is built around.`},{n:`05`,name:`The fifth hub, in the making`,when:`canola / oilseed`,state:`making`,built:`A seed partner, a buyer contract, and a partner-funded oil-extraction unit at village level.`,owns:`Being settled with the cluster. The farmer will sell oil to the hub instead of raw crop; the hub tests, grades, packs and sells to oil distribution and marketing companies.`,vg:`Chain designer and contract manager, performing the same function on a new crop.`,note:`On the road to ten hubs by 2030. It is not counted until it has run a full cycle.`}],d=[`grade`,`dry / process`,`test`,`trace`,`contract`];function f(){let[e,t]=(0,r.useState)(0),n=u[e];return(0,i.jsxs)(`div`,{className:`grid gap-5`,children:[(0,i.jsx)(`div`,{className:`grid grid-cols-5 gap-2`,children:u.map((n,r)=>(0,i.jsxs)(`button`,{onClick:()=>t(r),"aria-pressed":r===e,className:`panel text-left p-3 md:p-4 transition-colors`,style:{borderColor:r===e?`var(--gold)`:n.state===`making`?`var(--line-2)`:void 0,borderStyle:n.state===`making`?`dashed`:`solid`,background:r===e?`var(--surface-2)`:void 0,cursor:`pointer`},children:[(0,i.jsx)(`div`,{className:`num text-[1.1rem] font-semibold`,style:{color:r===e?`var(--gold)`:`var(--green-2)`},children:n.n}),(0,i.jsx)(`div`,{className:`text-[0.86rem] font-bold leading-tight mt-1`,style:{fontFamily:`'Bricolage Grotesque', system-ui, sans-serif`},children:n.name}),(0,i.jsx)(`div`,{className:`cap mt-1`,children:n.state===`making`?`◌ in the making`:`● running`})]},n.n))}),(0,i.jsx)(`div`,{className:`grid lg:grid-cols-[1fr_1fr_1fr] gap-4 frame-in`,children:[[`Who built it`,n.built],[`Who owns and runs it`,n.owns],[`VGreen's role`,n.vg]].map(([e,t])=>(0,i.jsxs)(`div`,{className:`panel p-5`,children:[(0,i.jsx)(`div`,{className:`eyebrow mb-2`,children:e}),(0,i.jsx)(`p`,{className:`m-0 text-[0.98rem] leading-relaxed`,children:t})]},e))},n.n),(0,i.jsxs)(`div`,{className:`grid lg:grid-cols-[1fr_auto] gap-4 items-center`,children:[(0,i.jsx)(`p`,{className:`m-0 dim text-[0.98rem] leading-relaxed frame-in`,children:n.note},n.n+`n`),(0,i.jsxs)(`div`,{className:`panel px-4 py-3 flex flex-wrap items-center gap-2`,children:[(0,i.jsx)(`span`,{className:`cap`,style:{color:`var(--green-2)`},children:`What never changes:`}),d.map(e=>(0,i.jsx)(`span`,{className:`mono text-[0.7rem] px-2.5 py-1 rounded-full border`,style:{borderColor:`var(--green)`,color:`var(--green-2)`},children:e},e))]})]}),(0,i.jsx)(`p`,{className:`cap m-0`,children:`Four hubs, four ownership structures, one constant function. The model adapts to each cluster, crop and culture.`})]})}var p=[{t:`Buyers returned`,d:`Processors and exporters re-contracted cycle after cycle, including three-year supply commitments made after the 2025 floods.`,who:`the market`},{t:`Farmers returned`,d:`Enrolled farmers returned the next season, and the next. Four became twenty-four, and twenty-four became 10,200 through that route rather than through recruitment drives.`,who:`the farm`},{t:`Capital was committed`,d:`VAN has been a shareholder since incorporation; Descon Holdings Limited (Agri Ventures) joined and invested in 2021; a global fund backed farmer and hub capability building at the first and second hubs, to prove the model and scale it. The company earns its own revenue from the work it does.`,who:`shareholders`},{t:`Partners funded assets`,d:`A dryer and a cold store at one hub; an oil-extraction unit for the next. These assets were placed by partners that required the hub to function.`,who:`partners`}];function m(){return(0,i.jsx)(`div`,{className:`grid md:grid-cols-2 xl:grid-cols-4 gap-4`,children:p.map(e=>(0,i.jsxs)(`div`,{className:`panel p-6 grid gap-2 content-start`,style:{borderTop:`3px solid var(--green)`},children:[(0,i.jsx)(`span`,{className:`cap`,children:e.who}),(0,i.jsx)(`h3`,{className:`display text-[1.3rem] leading-tight`,children:e.t}),(0,i.jsx)(`p`,{className:`m-0 dim text-[0.96rem] leading-relaxed`,children:e.d})]},e.t))})}var h=[{name:`Ahmed Umair`,url:`https://www.linkedin.com/in/ahmed-umair/`,photo:`/img/ahmed-umair.jpg`},{name:`Tahir Abbas`,url:`https://www.linkedin.com/in/ta-tahir/`,photo:`/img/tahir-abbas.jpg`}],g=[{name:`Vital Agri Nutrients (VAN)`,when:`Shareholder since incorporation`,note:`Pakistan's local R&D-driven crop nutrition company, and the agronomy base VGreen grew out of.`,url:`https://www.van.com.pk`},{name:`Descon Holdings Limited (Agri Ventures)`,when:`Joined and invested in 2021`,note:`Provided VGreen's capital in 2021.`}];function _({onModel:e}){return(0,i.jsxs)(i.Fragment,{children:[(0,i.jsxs)(`section`,{className:`hero relative overflow-hidden snap flex flex-col`,style:{padding:`20px 0 20px`,height:`auto`,minHeight:`calc(100vh - 64px)`},children:[(0,i.jsx)(a,{}),(0,i.jsxs)(`div`,{className:`wrap relative flex flex-col justify-start gap-5 pt-6 frame-in`,children:[(0,i.jsx)(`span`,{className:`eyebrow`,children:`Company background`}),(0,i.jsxs)(`h1`,{className:`display text-[clamp(2rem,3.6vw,3.4rem)] m-0`,children:[`The origins of the `,(0,i.jsx)(`span`,{style:{color:`var(--gold)`},children:`VGreen model.`})]}),(0,i.jsx)(`p`,{className:`dim text-[1.05rem] max-w-[50ch] m-0`,children:`VGreen's founding team spent years working alongside farmers on crop nutrition and agronomy. This section sets out what those seasons showed at harvest, and the response the company built.`})]})]}),(0,i.jsx)(`section`,{className:`sec`,children:(0,i.jsxs)(`div`,{className:`wrap`,children:[(0,i.jsxs)(`div`,{className:`sec-head`,children:[(0,i.jsx)(`span`,{className:`eyebrow`,children:`The gap`}),(0,i.jsxs)(`h2`,{children:[`The `,(0,i.jsx)(`span`,{style:{color:`var(--gold)`},children:`missing middle`}),` in the value chain`]}),(0,i.jsx)(`p`,{children:`The farmer sits at the bottom end of agriculture's value chain. Processors, exporters, brands and finance sit at the far upper end. Between them, where a working middle should be, there is almost nothing.`})]}),(0,i.jsx)(s,{})]})}),(0,i.jsx)(`section`,{className:`sec`,children:(0,i.jsxs)(`div`,{className:`wrap`,children:[(0,i.jsxs)(`div`,{className:`sec-head`,children:[(0,i.jsx)(`span`,{className:`eyebrow`,children:`How the model began`}),(0,i.jsxs)(`h2`,{children:[`The gap was identified through `,(0,i.jsx)(`span`,{style:{color:`var(--gold)`},children:`direct field work`})]}),(0,i.jsx)(`p`,{children:`Season after season, working with farmers on crop nutrition and agronomy, the same pattern repeated at harvest: the crop was grown well, and the chain then failed it. The problem was clear, and so was the solution. What remained was execution. VGreen began as a soft pilot in 2018 and was formed as a company in 2019.`})]}),(0,i.jsx)(l,{})]})}),(0,i.jsx)(`section`,{className:`sec tall`,children:(0,i.jsxs)(`div`,{className:`wrap`,children:[(0,i.jsxs)(`div`,{className:`sec-head`,children:[(0,i.jsx)(`span`,{className:`eyebrow`,children:`Hub by hub`}),(0,i.jsxs)(`h2`,{children:[`Four hubs, four ownership structures, `,(0,i.jsx)(`span`,{style:{color:`var(--gold)`},children:`one function`})]}),(0,i.jsx)(`p`,{children:`No two hubs were built the same way, because no two clusters were the same. The function each hub performs stayed constant.`})]}),(0,i.jsx)(f,{})]})}),(0,i.jsx)(`section`,{className:`sec`,children:(0,i.jsxs)(`div`,{className:`wrap`,children:[(0,i.jsxs)(`div`,{className:`sec-head`,children:[(0,i.jsx)(`span`,{className:`eyebrow`,children:`Repeat participation`}),(0,i.jsx)(`h2`,{children:`Buyers, farmers and partners returned`}),(0,i.jsx)(`p`,{children:`The clearest evidence for the model is repeat participation: the parties that came back for another cycle without being asked.`})]}),(0,i.jsx)(m,{})]})}),(0,i.jsxs)(`section`,{className:`sec relative overflow-hidden`,children:[(0,i.jsx)(n,{tone:`gold`,side:`bottom`}),(0,i.jsxs)(`div`,{className:`wrap relative grid lg:grid-cols-[1.15fr_0.85fr] gap-12 items-end`,children:[(0,i.jsx)(`p`,{className:`display text-[clamp(1.8rem,3.8vw,3.2rem)] m-0`,children:`Everyone tries to capture agriculture's value a thousand miles from the farm gate. Most of it is won or lost within the first ten miles.`}),(0,i.jsxs)(`div`,{className:`grid gap-5 dim text-[1.05rem]`,children:[(0,i.jsx)(`p`,{className:`m-0`,children:`Once value is lost in those ten miles, no downstream party can recover it. That middle, the first ten miles, is what VGreen is building.`}),(0,i.jsx)(`button`,{className:`btn on justify-self-start`,onClick:e,children:`See how the model works →`})]})]})]}),(0,i.jsx)(`section`,{id:`people`,className:`sec`,style:{minHeight:0,padding:`56px 0`},children:(0,i.jsxs)(`div`,{className:`wrap`,children:[(0,i.jsxs)(`div`,{className:`sec-head stack`,children:[(0,i.jsx)(`span`,{className:`eyebrow`,children:`Who is behind it`}),(0,i.jsx)(`h2`,{className:`text-[clamp(1.4rem,2.4vw,2rem)]`,children:`Founding members and shareholders`})]}),(0,i.jsxs)(`div`,{className:`grid lg:grid-cols-2 gap-8`,children:[(0,i.jsxs)(`div`,{children:[(0,i.jsx)(`div`,{className:`cap mb-3`,style:{color:`var(--gold)`},children:`Founding members`}),(0,i.jsx)(`div`,{className:`grid sm:grid-cols-2 gap-3`,children:h.map(e=>(0,i.jsxs)(`a`,{href:e.url,target:`_blank`,rel:`noopener`,className:`panel p-5 flex items-center gap-4 no-underline hover:border-[var(--green)] transition-colors`,children:[e.photo?(0,i.jsx)(`img`,{src:e.photo,alt:e.name,className:`w-12 h-12 rounded-full object-cover shrink-0 no-save`,style:{border:`1px solid var(--green)`},draggable:!1,onContextMenu:e=>e.preventDefault()}):(0,i.jsx)(`span`,{className:`inline-flex items-center justify-center w-12 h-12 rounded-full display text-[1.1rem] shrink-0`,style:{background:`var(--surface-2)`,border:`1px solid var(--green)`,color:`var(--green-2)`},children:e.name.split(` `).map(e=>e[0]).join(``)}),(0,i.jsxs)(`span`,{children:[(0,i.jsx)(`span`,{className:`display text-[1.15rem] block`,children:e.name}),(0,i.jsx)(`span`,{className:`cap mt-1 block`,children:`LinkedIn ↗`})]})]},e.name))})]}),(0,i.jsxs)(`div`,{children:[(0,i.jsx)(`div`,{className:`cap mb-3`,style:{color:`var(--gold)`},children:`Shareholders`}),(0,i.jsx)(`div`,{className:`grid gap-3`,children:g.map(e=>(0,i.jsxs)(`div`,{className:`panel p-5 grid gap-1`,children:[(0,i.jsxs)(`div`,{className:`flex items-baseline justify-between gap-3 flex-wrap`,children:[(0,i.jsx)(`span`,{className:`display text-[1.1rem]`,children:e.url?(0,i.jsxs)(`a`,{href:e.url,target:`_blank`,rel:`noopener`,className:`no-underline text-[var(--text)] hover:text-[var(--green-2)]`,children:[e.name,` ↗`]}):e.name}),(0,i.jsx)(`span`,{className:`cap`,style:{color:`var(--green-2)`},children:e.when})]}),(0,i.jsx)(`p`,{className:`m-0 dim text-[0.92rem]`,children:e.note})]},e.name))})]})]}),(0,i.jsx)(`p`,{className:`cap mt-5 m-0`,children:`Vital Green Pvt Ltd · incorporated 2019 · soft pilot since 2018 · Pakistan`})]})})]})}export{_ as default};
+import {
+  r as e,
+  t
+} from "./vendor-Bfx28lbG.js";
+import {
+  t as n
+} from "./CalmBackdrop-CDqYysf7.js";
+var r = e(),
+  i = t();
+
+function a() {
+  let e = (0, r.useId)().replace(/:/g, ``),
+    t = `M175 330 C 340 330, 380 250, 500 240 S 680 300, 820 215 S 1010 125, 1120 142 S 1180 112, 1215 100`,
+    n = `${t} L1400 100 L1400 420 L0 420 Z`;
+  return (0, i.jsx)(`div`, {
+    className: `absolute inset-x-0 bottom-0 h-[56%] pointer-events-none overflow-hidden`,
+    "aria-hidden": !0,
+    children: (0, i.jsxs)(`svg`, {
+      viewBox: `0 0 1400 420`,
+      preserveAspectRatio: `xMidYMid slice`,
+      className: `absolute inset-0 w-full h-full`,
+      children: [(0, i.jsxs)(`defs`, {
+        children: [(0, i.jsxs)(`linearGradient`, {
+          id: `fade-${e}`,
+          x1: `0`,
+          y1: `0`,
+          x2: `0`,
+          y2: `1`,
+          children: [(0, i.jsx)(`stop`, {
+            offset: `0`,
+            stopColor: `#06110B`,
+            stopOpacity: `1`
+          }), (0, i.jsx)(`stop`, {
+            offset: `0.38`,
+            stopColor: `#06110B`,
+            stopOpacity: `0`
+          })]
+        }), (0, i.jsxs)(`radialGradient`, {
+          id: `glow-${e}`,
+          children: [(0, i.jsx)(`stop`, {
+            offset: `0`,
+            stopColor: `#FFD27A`,
+            stopOpacity: `0.5`
+          }), (0, i.jsx)(`stop`, {
+            offset: `1`,
+            stopColor: `#FFB627`,
+            stopOpacity: `0`
+          })]
+        }), (0, i.jsxs)(`linearGradient`, {
+          id: `ground-${e}`,
+          x1: `0`,
+          y1: `0`,
+          x2: `0`,
+          y2: `1`,
+          children: [(0, i.jsx)(`stop`, {
+            offset: `0`,
+            stopColor: `#35C776`,
+            stopOpacity: `0.2`
+          }), (0, i.jsx)(`stop`, {
+            offset: `1`,
+            stopColor: `#35C776`,
+            stopOpacity: `0`
+          })]
+        })]
+      }), (0, i.jsx)(`circle`, {
+        cx: `1180`,
+        cy: `150`,
+        r: `190`,
+        fill: `url(#glow-${e})`
+      }), Array.from({
+        length: 5
+      }).map((e, t) => Array.from({
+        length: 24
+      }).map((e, n) => (0, i.jsx)(`circle`, {
+        cx: 30 + n * 60,
+        cy: 200 + t * 52,
+        r: `1.4`,
+        fill: `#EEF3EC`,
+        opacity: `0.14`
+      }, `${t}-${n}`))), (0, i.jsx)(`path`, {
+        d: n,
+        fill: `url(#ground-${e})`
+      }), (0, i.jsx)(`path`, {
+        d: t,
+        fill: `none`,
+        stroke: `#7FE3A8`,
+        strokeOpacity: `0.22`,
+        strokeWidth: `9`,
+        strokeLinecap: `round`
+      }), (0, i.jsx)(`path`, {
+        d: t,
+        fill: `none`,
+        stroke: `#7FE3A8`,
+        strokeOpacity: `0.65`,
+        strokeWidth: `2`,
+        strokeDasharray: `1 10`,
+        strokeLinecap: `round`
+      }), (0, i.jsxs)(`g`, {
+        transform: `translate(175 330)`,
+        children: [(0, i.jsx)(`path`, {
+          d: `M0 0 C -14 -8 -14 -26 -2 -34 C 4 -22 2 -8 0 0 Z`,
+          fill: `#35C776`,
+          opacity: `0.85`
+        }), (0, i.jsx)(`path`, {
+          d: `M0 0 C 12 -6 14 -20 4 -28 C -1 -18 -1 -6 0 0 Z`,
+          fill: `#7FE3A8`,
+          opacity: `0.75`
+        }), (0, i.jsx)(`circle`, {
+          r: `4`,
+          fill: `#0A1911`,
+          stroke: `#7FE3A8`,
+          strokeWidth: `2`
+        }), (0, i.jsx)(`text`, {
+          y: `-46`,
+          textAnchor: `middle`,
+          fontSize: `12`,
+          fontFamily: `'JetBrains Mono', monospace`,
+          fill: `#7FE3A8`,
+          opacity: `0.9`,
+          children: `2018`
+        })]
+      }), [
+        [500, 240, `2019`],
+        [820, 215, `2021`],
+        [1120, 142, `2025`]
+      ].map(([e, t, n]) => (0, i.jsxs)(`g`, {
+        transform: `translate(${e} ${t})`,
+        children: [(0, i.jsx)(`circle`, {
+          r: `7`,
+          fill: `#0A1911`,
+          stroke: `#7FE3A8`,
+          strokeWidth: `2`
+        }), (0, i.jsx)(`text`, {
+          y: `-18`,
+          textAnchor: `middle`,
+          fontSize: `12`,
+          fontFamily: `'JetBrains Mono', monospace`,
+          fill: `#7FE3A8`,
+          opacity: `0.9`,
+          children: n
+        })]
+      }, n)), (0, i.jsxs)(`g`, {
+        transform: `translate(1215 100)`,
+        children: [
+          [
+            [-30, 20],
+            [28, 24],
+            [0, -30]
+          ].map(([e, t], n) => (0, i.jsxs)(`g`, {
+            children: [(0, i.jsx)(`line`, {
+              x1: `0`,
+              y1: `0`,
+              x2: e,
+              y2: t,
+              stroke: `#FFB627`,
+              strokeOpacity: `0.5`,
+              strokeWidth: `1.5`
+            }), (0, i.jsx)(`circle`, {
+              cx: e,
+              cy: t,
+              r: `4.5`,
+              fill: `#FFB627`,
+              opacity: `0.75`
+            })]
+          }, n)), (0, i.jsx)(`circle`, {
+            r: `13`,
+            fill: `none`,
+            stroke: `#FFB627`,
+            strokeWidth: `2`
+          }), (0, i.jsx)(`circle`, {
+            r: `6`,
+            fill: `#FFB627`
+          }), (0, i.jsx)(`text`, {
+            y: `-46`,
+            textAnchor: `middle`,
+            fontSize: `12.5`,
+            fontWeight: 700,
+            fontFamily: `'JetBrains Mono', monospace`,
+            fill: `#FFD27A`,
+            children: `TODAY`
+          })
+        ]
+      }), (0, i.jsx)(`rect`, {
+        width: `1400`,
+        height: `420`,
+        fill: `url(#fade-${e})`
+      })]
+    })
+  })
+}
+var o = [
+  [`miles`, `The crop travels out raw, hours from the field, before anyone adds value to it.`],
+  [`capability`, `Grading, drying, testing and contracting are skills concentrated in the cities and largely absent from the villages.`],
+  [`infrastructure`, `No dryer, no cold store, no testing bench within reach of the farm gate.`],
+  [`knowledge`, `The buyer knows the spec. The farmer learns it after the truck is rejected.`],
+  [`finance`, `The season is funded by the person who will also set the price at harvest.`],
+  [`access to technology`, `Traceability, residue screening and field records are all available in the market, and none of them near the farm.`]
+];
+
+function s() {
+  let [e, t] = (0, r.useState)(0), n = .55 + e * .07;
+  return (0, i.jsxs)(`div`, {
+    className: `grid lg:grid-cols-[1.25fr_0.75fr] gap-8 items-start`,
+    children: [(0, i.jsx)(`figure`, {
+      className: `fig panel p-4 md:p-6 m-0`,
+      children: (0, i.jsxs)(`svg`, {
+        viewBox: `0 0 720 230`,
+        role: `img`,
+        "aria-label": `The farmer at one end, the market at the other, and a widening empty middle between them`,
+        children: [(0, i.jsx)(`defs`, {
+          children: (0, i.jsx)(`pattern`, {
+            id: `gapdots`,
+            width: `10`,
+            height: `10`,
+            patternUnits: `userSpaceOnUse`,
+            children: (0, i.jsx)(`circle`, {
+              cx: `2`,
+              cy: `2`,
+              r: `1`,
+              fill: `rgba(255,107,61,0.45)`
+            })
+          })
+        }), (0, i.jsx)(`rect`, {
+          x: 160,
+          y: 110 - 46 * n,
+          width: 400,
+          height: 92 * n,
+          rx: `8`,
+          fill: `url(#gapdots)`,
+          stroke: `var(--rust)`,
+          strokeDasharray: `6 5`,
+          strokeWidth: `1.5`,
+          className: `dash`,
+          opacity: `0.9`
+        }), (0, i.jsx)(`text`, {
+          x: 360,
+          y: 100,
+          textAnchor: `middle`,
+          fontSize: `11`,
+          fill: `var(--rust)`,
+          fontFamily: `JetBrains Mono, monospace`,
+          letterSpacing: `0.14em`,
+          children: `THE MIDDLE: MOSTLY NOTHING`
+        }), (0, i.jsx)(`text`, {
+          x: 360,
+          y: 118,
+          textAnchor: `middle`,
+          fontSize: `9.5`,
+          fill: `var(--dim)`,
+          fontFamily: `JetBrains Mono, monospace`,
+          children: `post-harvest loss · no infrastructure`
+        }), (0, i.jsx)(`text`, {
+          x: 360,
+          y: 132,
+          textAnchor: `middle`,
+          fontSize: `9.5`,
+          fill: `var(--dim)`,
+          fontFamily: `JetBrains Mono, monospace`,
+          children: `no near-farm enterprise · no processing near the field`
+        }), (0, i.jsx)(`circle`, {
+          cx: 90,
+          cy: 110,
+          r: `30`,
+          fill: `var(--surface-2)`,
+          stroke: `var(--green)`,
+          strokeWidth: `2`
+        }), (0, i.jsx)(`text`, {
+          x: 90,
+          y: 114,
+          textAnchor: `middle`,
+          fontSize: `11`,
+          fontWeight: `700`,
+          fill: `var(--text)`,
+          children: `FARMER`
+        }), (0, i.jsx)(`text`, {
+          x: 90,
+          y: 162,
+          textAnchor: `middle`,
+          fontSize: `10`,
+          fill: `var(--dim-2)`,
+          fontFamily: `JetBrains Mono, monospace`,
+          children: `bottom of the chain`
+        }), (0, i.jsx)(`rect`, {
+          x: 588,
+          y: 80,
+          width: `84`,
+          height: `60`,
+          rx: `8`,
+          fill: `var(--surface-2)`,
+          stroke: `var(--gold)`,
+          strokeWidth: `2`
+        }), (0, i.jsx)(`text`, {
+          x: 630,
+          y: 114,
+          textAnchor: `middle`,
+          fontSize: `11`,
+          fontWeight: `700`,
+          fill: `var(--text)`,
+          children: `MARKET`
+        }), (0, i.jsx)(`text`, {
+          x: 630,
+          y: 162,
+          textAnchor: `middle`,
+          fontSize: `10`,
+          fill: `var(--dim-2)`,
+          fontFamily: `JetBrains Mono, monospace`,
+          children: `processors · exporters · brands · finance`
+        }), (0, i.jsx)(`line`, {
+          x1: 124,
+          x2: 584,
+          y1: 186,
+          y2: 186,
+          stroke: `var(--line-2)`,
+          strokeWidth: `1`
+        }), (0, i.jsxs)(`text`, {
+          x: 360,
+          y: 202,
+          textAnchor: `middle`,
+          fontSize: `10`,
+          fill: `var(--dim)`,
+          fontFamily: `JetBrains Mono, monospace`,
+          letterSpacing: `0.1em`,
+          children: [`THE DISTANCE KEEPS WIDENING IN `, o[e][0].toUpperCase()]
+        })]
+      })
+    }), (0, i.jsxs)(`div`, {
+      className: `grid gap-3`,
+      children: [(0, i.jsx)(`div`, {
+        className: `cap`,
+        children: `The gap has several dimensions.`
+      }), (0, i.jsx)(`div`, {
+        className: `flex flex-wrap gap-2`,
+        children: o.map(([n], r) => (0, i.jsx)(`button`, {
+          className: `btn ${r===e?`on`:``}`,
+          onClick: () => t(r),
+          "aria-pressed": r === e,
+          children: n
+        }, n))
+      }), (0, i.jsxs)(`div`, {
+        className: `panel p-5 frame-in`,
+        children: [(0, i.jsx)(`div`, {
+          className: `eyebrow mb-2`,
+          children: o[e][0]
+        }), (0, i.jsx)(`p`, {
+          className: `m-0 text-[1rem] leading-relaxed`,
+          children: o[e][1]
+        })]
+      }, e)]
+    })]
+  })
+}
+var c = [{
+  k: `tomato`,
+  tag: `The tomato contradiction`,
+  front: `Fields rot unsold. The paste is imported.`,
+  back: `Farmers grow tomatoes that go to waste, with no shelter for the crop and no buyer standing behind it. Ketchup manufacturers meanwhile import their paste, because they see no viable tomato supply in Pakistan.`
+}, {
+  k: `chili`,
+  tag: `The chili contradiction`,
+  front: `The crop is lost to fungus. The demand is met by imports.`,
+  back: `Chili is lost to fungus and aflatoxin, and cyclical price shocks hit growers hard, while processors import chili to meet local demand. Taking Pakistani chili to global markets is not yet a realistic prospect.`
+}];
+
+function l() {
+  let [e, t] = (0, r.useState)(null);
+  return (0, i.jsxs)(`div`, {
+    className: `grid gap-5`,
+    children: [(0, i.jsx)(`div`, {
+      className: `grid md:grid-cols-2 gap-4`,
+      children: c.map(n => {
+        let r = e === n.k;
+        return (0, i.jsxs)(`button`, {
+          onClick: () => t(r ? null : n.k),
+          "aria-expanded": r,
+          className: `panel text-left p-6 grid gap-3 transition-colors`,
+          style: {
+            borderColor: r ? `var(--rust)` : void 0,
+            background: r ? `rgba(255,107,61,0.06)` : void 0,
+            cursor: `pointer`
+          },
+          children: [(0, i.jsx)(`span`, {
+            className: `cap`,
+            style: {
+              color: `var(--rust)`
+            },
+            children: n.tag
+          }), (0, i.jsx)(`span`, {
+            className: `display text-[1.35rem] leading-tight`,
+            children: n.front
+          }), (0, i.jsx)(`span`, {
+            className: `dim text-[0.98rem] leading-relaxed ${r?`frame-in`:``}`,
+            style: {
+              display: r ? `block` : `none`
+            },
+            children: n.back
+          }), (0, i.jsx)(`span`, {
+            className: `cap`,
+            "aria-hidden": `true`,
+            style: {
+              color: r ? `var(--gold)` : `var(--dim-2)`
+            },
+            children: r ? `−` : `+`
+          })]
+        }, n.k)
+      })
+    }), (0, i.jsx)(`p`, {
+      className: `m-0 dim text-[1rem] max-w-[72ch]`,
+      children: `Agricultural exports remain stagnant, and in places declining, because the quality layer is missing from the ecosystem.`
+    })]
+  })
+}
+var u = [{
+    n: `01`,
+    name: `The first hub`,
+    when: `the first cluster`,
+    state: `live`,
+    built: `VGreen. The village was asked to put in land or a building and declined, so VGreen built on its own land, with its own machines.`,
+    owns: `VGreen, as a division of the company. Farmers use it; quality-seeking buyers contract through it.`,
+    vg: `Builder, owner and operator, serving both the farmer and the buyer.`,
+    note: `The lesson: a hub can start without local ownership, but trust has to be earned on the ground before anyone will co-invest.`
+  }, {
+    n: `02`,
+    name: `The second hub`,
+    when: `the second cluster`,
+    state: `live`,
+    built: `Farmers gave the land. VGreen built the structure. A development partner funded the dryer and the cold store.`,
+    owns: `Shared: farmer land under a VGreen-built shed, with partner-funded assets inside it.`,
+    vg: `Builder and operator; the first hub where farmers put something of their own on the table.`,
+    note: `The lesson: once a buyer and a working hub exist next door, farmers contribute land they would never have pledged to a stranger.`
+  }, {
+    n: `03`,
+    name: `The third hub`,
+    when: `the third cluster`,
+    state: `live`,
+    built: `Farmers pooled it themselves, and then deadlocked on decisions.`,
+    owns: `The farmers. VGreen came in as mediator and operator: they own it, VGreen runs it.`,
+    vg: `Operator by invitation, carrying the governance work that no structure was yet performing.`,
+    note: `The lesson: ownership without a decision-making structure stalls. Governance is the part of the model still being worked out.`
+  }, {
+    n: `04`,
+    name: `The fourth hub`,
+    when: `the fourth cluster`,
+    state: `live`,
+    built: `One farmer built it step by step with his own capital, as a rural SME in the making.`,
+    owns: `He does. He serves 100+ farmers and growing. VGreen contracts him; he sub-contracts the farmers around him and runs the hub as a business unit.`,
+    vg: `Service partner: buyer access, inputs, harvest services, tracing and documentation.`,
+    note: `The lesson: a hub can be run as a private business as readily as a cooperative. That is the "rural SME" the model is built around.`
+  }, {
+    n: `05`,
+    name: `The fifth hub, in the making`,
+    when: `canola / oilseed`,
+    state: `making`,
+    built: `A seed partner, a buyer contract, and a partner-funded oil-extraction unit at village level.`,
+    owns: `Being settled with the cluster. The farmer will sell oil to the hub instead of raw crop; the hub tests, grades, packs and sells to oil distribution and marketing companies.`,
+    vg: `Chain designer and contract manager, performing the same function on a new crop.`,
+    note: `On the road to ten hubs by 2030. It is not counted until it has run a full cycle.`
+  }],
+  d = [`grade`, `dry / process`, `test`, `trace`, `contract`];
+
+function f() {
+  let [e, t] = (0, r.useState)(0), n = u[e];
+  return (0, i.jsxs)(`div`, {
+    className: `grid gap-5`,
+    children: [(0, i.jsx)(`div`, {
+      className: `grid grid-cols-5 gap-2`,
+      children: u.map((n, r) => (0, i.jsxs)(`button`, {
+        onClick: () => t(r),
+        "aria-pressed": r === e,
+        className: `panel text-left p-3 md:p-4 transition-colors`,
+        style: {
+          borderColor: r === e ? `var(--gold)` : n.state === `making` ? `var(--line-2)` : void 0,
+          borderStyle: n.state === `making` ? `dashed` : `solid`,
+          background: r === e ? `var(--surface-2)` : void 0,
+          cursor: `pointer`
+        },
+        children: [(0, i.jsx)(`div`, {
+          className: `num text-[1.1rem] font-semibold`,
+          style: {
+            color: r === e ? `var(--gold)` : `var(--green-2)`
+          },
+          children: n.n
+        }), (0, i.jsx)(`div`, {
+          className: `text-[0.86rem] font-bold leading-tight mt-1`,
+          style: {
+            fontFamily: `'Bricolage Grotesque', system-ui, sans-serif`
+          },
+          children: n.name
+        }), (0, i.jsx)(`div`, {
+          className: `cap mt-1`,
+          children: n.state === `making` ? `◌ in the making` : `● running`
+        })]
+      }, n.n))
+    }), (0, i.jsx)(`div`, {
+      className: `grid lg:grid-cols-[1fr_1fr_1fr] gap-4 frame-in`,
+      children: [
+        [`Who built it`, n.built],
+        [`Who owns and runs it`, n.owns],
+        [`VGreen's role`, n.vg]
+      ].map(([e, t]) => (0, i.jsxs)(`div`, {
+        className: `panel p-5`,
+        children: [(0, i.jsx)(`div`, {
+          className: `eyebrow mb-2`,
+          children: e
+        }), (0, i.jsx)(`p`, {
+          className: `m-0 text-[0.98rem] leading-relaxed`,
+          children: t
+        })]
+      }, e))
+    }, n.n), (0, i.jsxs)(`div`, {
+      className: `grid lg:grid-cols-[1fr_auto] gap-4 items-center`,
+      children: [(0, i.jsx)(`p`, {
+        className: `m-0 dim text-[0.98rem] leading-relaxed frame-in`,
+        children: n.note
+      }, n.n + `n`), (0, i.jsxs)(`div`, {
+        className: `panel px-4 py-3 flex flex-wrap items-center gap-2`,
+        children: [(0, i.jsx)(`span`, {
+          className: `cap`,
+          style: {
+            color: `var(--green-2)`
+          },
+          children: `What never changes:`
+        }), d.map(e => (0, i.jsx)(`span`, {
+          className: `mono text-[0.7rem] px-2.5 py-1 rounded-full border`,
+          style: {
+            borderColor: `var(--green)`,
+            color: `var(--green-2)`
+          },
+          children: e
+        }, e))]
+      })]
+    }), (0, i.jsx)(`p`, {
+      className: `cap m-0`,
+      children: `Four hubs, four ownership structures, one constant function. The model adapts to each cluster, crop and culture.`
+    })]
+  })
+}
+var p = [{
+  t: `Buyers returned`,
+  d: `Processors and exporters re-contracted cycle after cycle, including three-year supply commitments made after the 2025 floods.`,
+  who: `the market`
+}, {
+  t: `Farmers returned`,
+  d: `Enrolled farmers returned the next season, and the next. Four became twenty-four, and twenty-four became 10,200 through that route rather than through recruitment drives.`,
+  who: `the farm`
+}, {
+  t: `Capital was committed`,
+  d: `VAN has been a shareholder since incorporation; Descon Holdings Limited (Agri Ventures) joined and invested in 2021; a global fund backed farmer and hub capability building at the first and second hubs, to prove the model and scale it. The company earns its own revenue from the work it does.`,
+  who: `shareholders`
+}, {
+  t: `Partners funded assets`,
+  d: `A dryer and a cold store at one hub; an oil-extraction unit for the next. These assets were placed by partners that required the hub to function.`,
+  who: `partners`
+}];
+
+function m() {
+  return (0, i.jsx)(`div`, {
+    className: `grid md:grid-cols-2 xl:grid-cols-4 gap-4`,
+    children: p.map(e => (0, i.jsxs)(`div`, {
+      className: `panel p-6 grid gap-2 content-start`,
+      style: {
+        borderTop: `3px solid var(--green)`
+      },
+      children: [(0, i.jsx)(`span`, {
+        className: `cap`,
+        children: e.who
+      }), (0, i.jsx)(`h3`, {
+        className: `display text-[1.3rem] leading-tight`,
+        children: e.t
+      }), (0, i.jsx)(`p`, {
+        className: `m-0 dim text-[0.96rem] leading-relaxed`,
+        children: e.d
+      })]
+    }, e.t))
+  })
+}
+var h = [{
+    name: `Ahmed Umair`,
+    url: `https://www.linkedin.com/in/ahmed-umair/`,
+    photo: `/img/ahmed-umair.jpg`
+  }, {
+    name: `Tahir Abbas`,
+    url: `https://www.linkedin.com/in/ta-tahir/`,
+    photo: `/img/tahir-abbas.jpg`
+  }],
+  g = [{
+    name: `Vital Agri Nutrients (VAN)`,
+    when: `Shareholder since incorporation`,
+    note: `Pakistan's local R&D-driven crop nutrition company, and the agronomy base VGreen grew out of.`,
+    url: `https://www.van.com.pk`
+  }, {
+    name: `Descon Holdings Limited (Agri Ventures)`,
+    when: `Joined and invested in 2021`,
+    note: `Provided VGreen's capital in 2021.`
+  }];
+
+function _({
+  onModel: e
+}) {
+  return (0, i.jsxs)(i.Fragment, {
+    children: [(0, i.jsxs)(`section`, {
+      className: `hero relative overflow-hidden snap flex flex-col`,
+      style: {
+        padding: `20px 0 20px`,
+        height: `auto`,
+        minHeight: `calc(100vh - 64px)`
+      },
+      children: [(0, i.jsx)(a, {}), (0, i.jsxs)(`div`, {
+        className: `wrap relative flex flex-col justify-start gap-5 pt-6 frame-in`,
+        children: [(0, i.jsx)(`span`, {
+          className: `eyebrow`,
+          children: `Company background`
+        }), (0, i.jsxs)(`h1`, {
+          className: `display text-[clamp(2rem,3.6vw,3.4rem)] m-0`,
+          children: [`The origins of the `, (0, i.jsx)(`span`, {
+            style: {
+              color: `var(--gold)`
+            },
+            children: `VGreen model.`
+          })]
+        }), (0, i.jsx)(`p`, {
+          className: `dim text-[1.05rem] max-w-[50ch] m-0`,
+          children: `VGreen's founding team spent years working alongside farmers on crop nutrition and agronomy. This section sets out what those seasons showed at harvest, and the response the company built.`
+        })]
+      })]
+    }), (0, i.jsx)(`section`, {
+      className: `sec`,
+      children: (0, i.jsxs)(`div`, {
+        className: `wrap`,
+        children: [(0, i.jsxs)(`div`, {
+          className: `sec-head`,
+          children: [(0, i.jsx)(`span`, {
+            className: `eyebrow`,
+            children: `The gap`
+          }), (0, i.jsxs)(`h2`, {
+            children: [`The `, (0, i.jsx)(`span`, {
+              style: {
+                color: `var(--gold)`
+              },
+              children: `missing middle`
+            }), ` in the value chain`]
+          }), (0, i.jsx)(`p`, {
+            children: `The farmer sits at the bottom end of agriculture's value chain. Processors, exporters, brands and finance sit at the far upper end. Between them, where a working middle should be, there is almost nothing.`
+          })]
+        }), (0, i.jsx)(s, {})]
+      })
+    }), (0, i.jsx)(`section`, {
+      className: `sec`,
+      children: (0, i.jsxs)(`div`, {
+        className: `wrap`,
+        children: [(0, i.jsxs)(`div`, {
+          className: `sec-head`,
+          children: [(0, i.jsx)(`span`, {
+            className: `eyebrow`,
+            children: `How the model began`
+          }), (0, i.jsxs)(`h2`, {
+            children: [`The gap was identified through `, (0, i.jsx)(`span`, {
+              style: {
+                color: `var(--gold)`
+              },
+              children: `direct field work`
+            })]
+          }), (0, i.jsx)(`p`, {
+            children: `Season after season, working with farmers on crop nutrition and agronomy, the same pattern repeated at harvest: the crop was grown well, and the chain then failed it. The problem was clear, and so was the solution. What remained was execution. VGreen began as a soft pilot in 2018 and was formed as a company in 2019.`
+          })]
+        }), (0, i.jsx)(l, {})]
+      })
+    }), (0, i.jsx)(`section`, {
+      className: `sec tall`,
+      children: (0, i.jsxs)(`div`, {
+        className: `wrap`,
+        children: [(0, i.jsxs)(`div`, {
+          className: `sec-head`,
+          children: [(0, i.jsx)(`span`, {
+            className: `eyebrow`,
+            children: `Hub by hub`
+          }), (0, i.jsxs)(`h2`, {
+            children: [`Four hubs, four ownership structures, `, (0, i.jsx)(`span`, {
+              style: {
+                color: `var(--gold)`
+              },
+              children: `one function`
+            })]
+          }), (0, i.jsx)(`p`, {
+            children: `No two hubs were built the same way, because no two clusters were the same. The function each hub performs stayed constant.`
+          })]
+        }), (0, i.jsx)(f, {})]
+      })
+    }), (0, i.jsx)(`section`, {
+      className: `sec`,
+      children: (0, i.jsxs)(`div`, {
+        className: `wrap`,
+        children: [(0, i.jsxs)(`div`, {
+          className: `sec-head`,
+          children: [(0, i.jsx)(`span`, {
+            className: `eyebrow`,
+            children: `Repeat participation`
+          }), (0, i.jsx)(`h2`, {
+            children: `Buyers, farmers and partners returned`
+          }), (0, i.jsx)(`p`, {
+            children: `The clearest evidence for the model is repeat participation: the parties that came back for another cycle without being asked.`
+          })]
+        }), (0, i.jsx)(m, {})]
+      })
+    }), (0, i.jsxs)(`section`, {
+      className: `sec relative overflow-hidden`,
+      children: [(0, i.jsx)(n, {
+        tone: `gold`,
+        side: `bottom`
+      }), (0, i.jsxs)(`div`, {
+        className: `wrap relative grid lg:grid-cols-[1.15fr_0.85fr] gap-12 items-end`,
+        children: [(0, i.jsx)(`p`, {
+          className: `display text-[clamp(1.8rem,3.8vw,3.2rem)] m-0`,
+          children: `Everyone tries to capture agriculture's value a thousand miles from the farm gate. Most of it is won or lost within the first ten miles.`
+        }), (0, i.jsxs)(`div`, {
+          className: `grid gap-5 dim text-[1.05rem]`,
+          children: [(0, i.jsx)(`p`, {
+            className: `m-0`,
+            children: `Once value is lost in those ten miles, no downstream party can recover it. That middle, the first ten miles, is what VGreen is building.`
+          }), (0, i.jsx)(`button`, {
+            className: `btn on justify-self-start`,
+            onClick: e,
+            children: `See how the model works →`
+          })]
+        })]
+      })]
+    }), (0, i.jsx)(`section`, {
+      id: `people`,
+      className: `sec`,
+      style: {
+        minHeight: 0,
+        padding: `56px 0`
+      },
+      children: (0, i.jsxs)(`div`, {
+        className: `wrap`,
+        children: [(0, i.jsxs)(`div`, {
+          className: `sec-head stack`,
+          children: [(0, i.jsx)(`span`, {
+            className: `eyebrow`,
+            children: `Who is behind it`
+          }), (0, i.jsx)(`h2`, {
+            className: `text-[clamp(1.4rem,2.4vw,2rem)]`,
+            children: `Founding members and shareholders`
+          })]
+        }), (0, i.jsxs)(`div`, {
+          className: `grid lg:grid-cols-2 gap-8`,
+          children: [(0, i.jsxs)(`div`, {
+            children: [(0, i.jsx)(`div`, {
+              className: `cap mb-3`,
+              style: {
+                color: `var(--gold)`
+              },
+              children: `Founding members`
+            }), (0, i.jsx)(`div`, {
+              className: `grid sm:grid-cols-2 gap-3`,
+              children: h.map(e => (0, i.jsxs)(`a`, {
+                href: e.url,
+                target: `_blank`,
+                rel: `noopener`,
+                className: `panel p-5 flex items-center gap-4 no-underline hover:border-[var(--green)] transition-colors`,
+                children: [e.photo ? (0, i.jsx)(`img`, {
+                  src: e.photo,
+                  alt: e.name,
+                  className: `w-12 h-12 rounded-full object-cover shrink-0 no-save`,
+                  style: {
+                    border: `1px solid var(--green)`
+                  },
+                  draggable: !1,
+                  onContextMenu: e => e.preventDefault()
+                }) : (0, i.jsx)(`span`, {
+                  className: `inline-flex items-center justify-center w-12 h-12 rounded-full display text-[1.1rem] shrink-0`,
+                  style: {
+                    background: `var(--surface-2)`,
+                    border: `1px solid var(--green)`,
+                    color: `var(--green-2)`
+                  },
+                  children: e.name.split(` `).map(e => e[0]).join(``)
+                }), (0, i.jsxs)(`span`, {
+                  children: [(0, i.jsx)(`span`, {
+                    className: `display text-[1.15rem] block`,
+                    children: e.name
+                  }), (0, i.jsx)(`span`, {
+                    className: `cap mt-1 block`,
+                    children: `LinkedIn ↗`
+                  })]
+                })]
+              }, e.name))
+            })]
+          }), (0, i.jsxs)(`div`, {
+            children: [(0, i.jsx)(`div`, {
+              className: `cap mb-3`,
+              style: {
+                color: `var(--gold)`
+              },
+              children: `Shareholders`
+            }), (0, i.jsx)(`div`, {
+              className: `grid gap-3`,
+              children: g.map(e => (0, i.jsxs)(`div`, {
+                className: `panel p-5 grid gap-1`,
+                children: [(0, i.jsxs)(`div`, {
+                  className: `flex items-baseline justify-between gap-3 flex-wrap`,
+                  children: [(0, i.jsx)(`span`, {
+                    className: `display text-[1.1rem]`,
+                    children: e.url ? (0, i.jsxs)(`a`, {
+                      href: e.url,
+                      target: `_blank`,
+                      rel: `noopener`,
+                      className: `no-underline text-[var(--text)] hover:text-[var(--green-2)]`,
+                      children: [e.name, ` ↗`]
+                    }) : e.name
+                  }), (0, i.jsx)(`span`, {
+                    className: `cap`,
+                    style: {
+                      color: `var(--green-2)`
+                    },
+                    children: e.when
+                  })]
+                }), (0, i.jsx)(`p`, {
+                  className: `m-0 dim text-[0.92rem]`,
+                  children: e.note
+                })]
+              }, e.name))
+            })]
+          })]
+        }), (0, i.jsx)(`p`, {
+          className: `cap mt-5 m-0`,
+          children: `Vital Green Pvt Ltd · incorporated 2019 · soft pilot since 2018 · Pakistan`
+        })]
+      })
+    })]
+  })
+}
+export {
+  _ as
+  default
+};

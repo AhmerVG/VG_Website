@@ -1,1 +1,939 @@
-import{r as e,t}from"./vendor-Bfx28lbG.js";import{t as n}from"./CalmBackdrop-CDqYysf7.js";var r=e(),i=t();function a(){let e=(0,r.useId)().replace(/:/g,``),t=Array.from({length:14});return(0,i.jsx)(`div`,{className:`absolute inset-0 pointer-events-none overflow-hidden`,"aria-hidden":!0,children:(0,i.jsxs)(`svg`,{viewBox:`0 0 1400 620`,preserveAspectRatio:`xMidYMax slice`,className:`absolute inset-0 w-full h-full`,children:[(0,i.jsxs)(`defs`,{children:[(0,i.jsxs)(`linearGradient`,{id:`sky-${e}`,x1:`0`,y1:`0`,x2:`0`,y2:`1`,children:[(0,i.jsx)(`stop`,{offset:`0`,stopColor:`#06110B`}),(0,i.jsx)(`stop`,{offset:`1`,stopColor:`#0B1F16`})]}),(0,i.jsxs)(`linearGradient`,{id:`ground-${e}`,x1:`0`,y1:`0`,x2:`0`,y2:`1`,children:[(0,i.jsx)(`stop`,{offset:`0`,stopColor:`#0E2B1E`}),(0,i.jsx)(`stop`,{offset:`1`,stopColor:`#06110B`})]}),(0,i.jsxs)(`linearGradient`,{id:`veil-${e}`,x1:`0`,y1:`0`,x2:`0`,y2:`1`,children:[(0,i.jsx)(`stop`,{offset:`0`,stopColor:`#06110B`,stopOpacity:`0.55`}),(0,i.jsx)(`stop`,{offset:`0.55`,stopColor:`#06110B`,stopOpacity:`0.1`}),(0,i.jsx)(`stop`,{offset:`1`,stopColor:`#06110B`,stopOpacity:`0.7`})]}),(0,i.jsxs)(`radialGradient`,{id:`lamp-${e}`,children:[(0,i.jsx)(`stop`,{offset:`0`,stopColor:`#FFD27A`,stopOpacity:`0.55`}),(0,i.jsx)(`stop`,{offset:`1`,stopColor:`#FFB627`,stopOpacity:`0`})]})]}),(0,i.jsx)(`rect`,{width:`1400`,height:`620`,fill:`url(#sky-${e})`}),(0,i.jsxs)(`g`,{fill:`#10231A`,stroke:`#7FE3A8`,strokeOpacity:`0.28`,children:[[[960,330,40,90],[1006,300,34,120],[1046,350,50,70],[1102,270,44,150],[1152,320,36,100],[1194,290,56,130],[1256,340,40,80]].map(([e,t,n,r],a)=>(0,i.jsxs)(`g`,{children:[(0,i.jsx)(`rect`,{x:e,y:t,width:n,height:r}),Array.from({length:Math.floor(r/18)}).map((r,o)=>(0,i.jsx)(`rect`,{x:e+6,y:t+8+o*18,width:n-12,height:`5`,fill:`#FFD27A`,opacity:(a+o)%3==0?.55:.18,stroke:`none`},o))]},a)),(0,i.jsx)(`text`,{x:`1120`,y:`255`,textAnchor:`middle`,fontSize:`11`,fill:`#A6BBAD`,fontFamily:`JetBrains Mono, monospace`,letterSpacing:`2`,stroke:`none`,children:`PROCESSORS · BANKS · MARKETS`})]}),(0,i.jsx)(`path`,{d:`M0 420 Q700 380 1400 420 V620 H0 Z`,fill:`url(#ground-${e})`}),(0,i.jsx)(`g`,{stroke:`#35C776`,strokeOpacity:`0.28`,strokeWidth:`1.2`,fill:`none`,children:t.map((e,t)=>{let n=-60+t*70;return(0,i.jsx)(`path`,{d:`M ${n} 640 Q ${n+120} 520 ${760+t*2} 418`},t)})}),(0,i.jsxs)(`g`,{transform:`translate(720 330)`,children:[(0,i.jsx)(`path`,{d:`M0 90 V30 L60 0 L120 30 V90 Z`,fill:`#16301F`,stroke:`#7FE3A8`,strokeOpacity:`0.6`,strokeWidth:`1.5`}),(0,i.jsx)(`rect`,{x:`120`,y:`42`,width:`70`,height:`48`,fill:`#10231A`,stroke:`#7FE3A8`,strokeOpacity:`0.5`}),(0,i.jsx)(`rect`,{x:`46`,y:`52`,width:`28`,height:`38`,fill:`#FFD27A`,opacity:`0.85`}),(0,i.jsx)(`circle`,{cx:`60`,cy:`72`,r:`70`,fill:`url(#lamp-${e})`,className:`pulse`}),(0,i.jsx)(`rect`,{x:`132`,y:`52`,width:`14`,height:`10`,fill:`#FFD27A`,opacity:`0.6`}),(0,i.jsx)(`rect`,{x:`164`,y:`52`,width:`14`,height:`10`,fill:`#FFD27A`,opacity:`0.6`}),(0,i.jsx)(`text`,{x:`60`,y:`112`,textAnchor:`middle`,fontSize:`10.5`,fill:`#7FE3A8`,fontFamily:`JetBrains Mono, monospace`,letterSpacing:`2`,children:`THE HUB · THE LENDABLE LAYER`})]}),(0,i.jsx)(`path`,{d:`M120 560 C 450 520, 640 440, 780 420 C 900 400, 980 380, 1130 372`,fill:`none`,stroke:`#FFB627`,strokeWidth:`2`,strokeDasharray:`6 6`,className:`dash`,opacity:`0.8`}),(0,i.jsx)(`circle`,{cx:`120`,cy:`560`,r:`4`,fill:`#35C776`}),(0,i.jsx)(`circle`,{cx:`1130`,cy:`372`,r:`4`,fill:`#FFB627`}),(0,i.jsx)(`rect`,{width:`1400`,height:`620`,fill:`url(#veil-${e})`})]})})}var o=[`Consistent quality`,`Testing & certification near the farm`,`Value addition before the crop leaves`,`Contract management`,`Traceable records`],s=[[`Attracts capital`,`the layer that makes the system lendable and creditable`],[`Capacity → outcomes`,`crop-specific agronomy and self-governance lift the farm`],[`Aggregation → price consistency`,`volume and quality a processor contracts against, every cycle`],[`Loss removed`,`up to 40% of a horticulture crop is lost farm to market; keeping it is value`]];function c(e,t=11){let n=t,r=()=>(n=(n*9301+49297)%233280,n/233280);return Array.from({length:e},()=>[r(),r()])}var l=c(36),u=[`Village hub`,`District hub`,`Provincial`,`National (export co.)`];function d({hub:e}){return(0,i.jsxs)(`svg`,{viewBox:`0 0 1000 ${e?430:340}`,role:`img`,"aria-label":e?`With the hub: farms organised into groups, each linked two ways to the hub, with produce in and value and a residual return out, and the hub linked to the market. Below: the pathway this hub is one rung on, running from village hub to district hub to provincial, then to a national farmer marketing and export company.`:`Without the hub: scattered, unorganised farms send produce individually toward the market; crop loss and price shocks hit on the way.`,children:[(0,i.jsx)(`defs`,{children:(0,i.jsx)(`marker`,{id:`pipeArrow`,viewBox:`0 0 10 10`,refX:`9`,refY:`5`,markerWidth:`7`,markerHeight:`7`,orient:`auto`,children:(0,i.jsx)(`path`,{d:`M0 0 L10 5 L0 10 z`,fill:`var(--dim)`})})}),(0,i.jsx)(`text`,{x:`30`,y:`26`,className:`mono`,fontSize:`10`,letterSpacing:`2`,fill:`var(--dim)`,children:e?`FARMS · ORGANISED`:`FARMS · SCATTERED`}),(0,i.jsx)(`text`,{x:e?630:470,y:`26`,textAnchor:`middle`,className:`mono`,fontSize:`10`,letterSpacing:`2`,fill:`var(--dim)`,children:e?`THE HUB`:`THE MISSING MIDDLE`}),(0,i.jsx)(`text`,{x:908,y:`26`,textAnchor:`middle`,className:`mono`,fontSize:`10`,letterSpacing:`2`,fill:`var(--dim)`,children:`MARKET`}),e?(0,i.jsxs)(`g`,{children:[[0,1,2,3].map(e=>{let t=110+e%2*130,n=105+Math.floor(e/2)*130,r=`M ${t+34} ${n} L 450 170`,a=`M 450 180 L ${t+34} ${n+12}`;return(0,i.jsxs)(`g`,{children:[(0,i.jsx)(`circle`,{cx:t,cy:n,r:`44`,fill:`none`,stroke:`var(--line-2)`,strokeDasharray:`3 4`}),Array.from({length:9}).map((e,r)=>{let a=r/9*Math.PI*2;return(0,i.jsx)(`circle`,{cx:t+Math.cos(a)*26,cy:n+Math.sin(a)*26,r:`3.2`,fill:`var(--green)`},r)}),(0,i.jsx)(`path`,{d:r,stroke:`var(--green)`,strokeOpacity:`0.35`,fill:`none`}),(0,i.jsx)(`path`,{d:a,stroke:`var(--gold)`,strokeOpacity:`0.35`,fill:`none`}),(0,i.jsx)(`circle`,{r:`3`,fill:`var(--green)`,children:(0,i.jsx)(`animateMotion`,{dur:`3.2s`,begin:`${e*.6}s`,repeatCount:`indefinite`,path:r})}),(0,i.jsx)(`circle`,{r:`3`,fill:`var(--gold)`,children:(0,i.jsx)(`animateMotion`,{dur:`3.2s`,begin:`${e*.6+1.4}s`,repeatCount:`indefinite`,path:a})})]},e)}),(0,i.jsxs)(`text`,{x:`30`,y:`318`,className:`mono`,fontSize:`9.5`,fill:`var(--dim)`,children:[(0,i.jsx)(`tspan`,{fill:`var(--green)`,children:`●`}),` produce in \xA0 `,(0,i.jsx)(`tspan`,{fill:`var(--gold)`,children:`●`}),` value and a residual return to every member`]}),(0,i.jsx)(`rect`,{x:`450`,y:`52`,width:`360`,height:`240`,rx:`10`,fill:`var(--green-glow)`,stroke:`var(--green)`,strokeWidth:`1.5`}),(0,i.jsx)(`text`,{x:`468`,y:`78`,className:`mono`,fontSize:`9.5`,letterSpacing:`1.5`,fill:`var(--green-2)`,children:`WHAT THE MIDDLE DOES`}),s.map(([e,t],n)=>(0,i.jsxs)(`g`,{transform:`translate(468 ${106+n*46})`,children:[(0,i.jsx)(`rect`,{width:`8`,height:`8`,rx:`2`,y:`-7`,fill:`var(--green)`}),(0,i.jsx)(`text`,{x:`15`,y:`0`,fontSize:`12.5`,fontWeight:`700`,fill:`var(--text)`,children:e}),(0,i.jsx)(`text`,{x:`15`,y:`16`,fontSize:`10`,fill:`var(--dim)`,children:t})]},e)),(0,i.jsx)(`path`,{d:`M 810 170 L 820 170`,stroke:`var(--line-2)`,strokeWidth:`1.5`,markerEnd:`url(#pipeArrow)`}),(0,i.jsx)(`line`,{x1:`30`,y1:`345`,x2:`970`,y2:`345`,stroke:`var(--line)`}),(0,i.jsx)(`text`,{x:`30`,y:`368`,className:`mono`,fontSize:`9.5`,letterSpacing:`1.5`,fill:`var(--dim)`,children:`THE PATHWAY THIS HUB IS ONE RUNG ON`}),u.map((e,t)=>{let n=[150,400,650,900][t];return(0,i.jsxs)(`g`,{children:[t<u.length-1&&(0,i.jsx)(`path`,{d:`M ${n+66} 400 L ${[150,400,650,900][t+1]-66} 400`,stroke:`var(--line-2)`,strokeWidth:`1.5`,markerEnd:`url(#pipeArrow)`}),(0,i.jsx)(`rect`,{x:n-64,y:384,width:`128`,height:`32`,rx:`16`,fill:t===0?`var(--green-glow)`:`var(--surface-2)`,stroke:t===0?`var(--green)`:`var(--line-2)`,strokeWidth:t===0?1.5:1}),(0,i.jsx)(`text`,{x:n,y:404,textAnchor:`middle`,fontSize:`10.5`,fontWeight:`700`,fill:t===0?`var(--green-2)`:`var(--dim)`,children:e}),t===0&&(0,i.jsx)(`text`,{x:n,y:430,textAnchor:`middle`,className:`mono`,fontSize:`8.5`,letterSpacing:`1`,fill:`var(--green-2)`,children:`YOU ARE HERE`})]},e)})]}):(0,i.jsxs)(`g`,{children:[l.map(([e,t],n)=>{let r=30+e*250,a=50+t*260,o=`M ${r} ${a} L 820 ${170+(t-.5)*80}`;return(0,i.jsxs)(`g`,{children:[(0,i.jsx)(`path`,{d:o,stroke:`rgba(238,243,236,0.07)`,fill:`none`}),(0,i.jsx)(`circle`,{cx:r,cy:a,r:`3.2`,fill:`var(--dim)`}),n%4==0&&(0,i.jsxs)(`circle`,{r:`3`,fill:`var(--rust)`,children:[(0,i.jsx)(`animateMotion`,{dur:`${5+n%5}s`,begin:`${n%7*.5}s`,repeatCount:`indefinite`,path:o}),(0,i.jsx)(`animate`,{attributeName:`opacity`,values:`1;1;0.15;0`,keyTimes:`0;0.3;0.8;1`,dur:`${5+n%5}s`,begin:`${n%7*.5}s`,repeatCount:`indefinite`})]})]},n)}),(0,i.jsx)(`rect`,{x:`300`,y:`52`,width:`340`,height:`240`,rx:`10`,fill:`var(--bg-2)`,stroke:`var(--rust)`,strokeWidth:`1.5`,strokeDasharray:`6 5`}),(0,i.jsx)(`text`,{x:`318`,y:`78`,className:`mono`,fontSize:`9.5`,letterSpacing:`1.5`,fill:`var(--rust)`,children:`MISSING`}),o.map((e,t)=>(0,i.jsxs)(`g`,{transform:`translate(318 ${100+t*22})`,children:[(0,i.jsx)(`rect`,{width:`8`,height:`8`,rx:`2`,y:`-7`,fill:`var(--rust)`,opacity:`0.5`}),(0,i.jsx)(`text`,{x:`15`,y:`0`,fontSize:`11.5`,fill:`var(--dim)`,style:{textDecoration:`line-through`},children:e})]},e)),(0,i.jsxs)(`g`,{transform:`translate(318 232)`,children:[(0,i.jsx)(`text`,{x:`0`,y:`0`,fontSize:`12`,fontWeight:`700`,fill:`var(--rust)`,children:`Loss: up to 40% of a horticulture crop`}),(0,i.jsx)(`text`,{x:`0`,y:`22`,fontSize:`12`,fontWeight:`700`,fill:`var(--rust)`,children:`Price shocks: the price arrives last`})]})]}),(0,i.jsxs)(`g`,{transform:`translate(825 120)`,children:[(0,i.jsx)(`rect`,{width:`165`,height:`100`,rx:`8`,fill:`var(--surface)`,stroke:`var(--line-2)`}),(0,i.jsx)(`text`,{x:`14`,y:`32`,fontSize:`15`,fontWeight:`800`,fill:`var(--text)`,style:{fontFamily:`'Bricolage Grotesque', system-ui, sans-serif`},children:`Market`}),(0,i.jsx)(`text`,{x:`14`,y:`54`,fontSize:`11`,fill:`var(--dim)`,children:`processors, exporters`}),(0,i.jsx)(`text`,{x:`14`,y:`72`,fontSize:`11`,fill:`var(--dim)`,children:e?`contracts before sowing`:`imports what it could grow`})]})]})}var f=[{need:`Predictability`,farm:`no`,hub:`yes`,v:92,note:`Buyer contract before sowing; fifteen complete cycles.`},{need:`Visibility`,farm:`no`,hub:`yes`,v:88,note:`Cluster mapping, farmer registration, satellite crop health, traceability records.`},{need:`Cash-flow data`,farm:`no`,hub:`yes`,v:85,note:`Every settlement runs through the hub and is recorded there.`},{need:`Diversification`,farm:`no`,hub:`yes`,v:80,note:`11 value chains across 18 clusters. Nine crops leave the hub: four under contract to processors and exporters, and five consolidated and sold on through other channels. No single buyer carries the whole book.`},{need:`Market access`,farm:`no`,hub:`yes`,v:90,note:`National processors and container export, on contract.`},{need:`Economic entity: legal form`,farm:`no`,hub:`building`,v:40,note:`The hub has to become a business that can hold a contract and a loan. No FPO is yet formally structured; five villages act as custodian on a semi-formal basis. This is the blocking question.`},{need:`Governance`,farm:`no`,hub:`building`,v:28,note:`Several models have been tried across four hubs and the design is still evolving. No single model can yet be identified with high confidence.`},{need:`Insurable asset base`,farm:`no`,hub:`blocked`,v:15,note:`Insurers either decline to cover hub assets or price that cover prohibitively.`}];function p(){let[e,t]=(0,r.useState)(0),n=e=>e===`yes`?`var(--green)`:e===`building`?`var(--gold)`:`var(--rust)`;return(0,i.jsxs)(`div`,{className:`grid lg:grid-cols-[1fr_340px] gap-8 items-start`,children:[(0,i.jsxs)(`div`,{className:`panel p-2 md:p-4`,children:[f.map((r,a)=>(0,i.jsxs)(`button`,{onClick:()=>t(a),"aria-pressed":a===e,className:`w-full grid grid-cols-[150px_1fr_70px] md:grid-cols-[190px_1fr_90px] items-center gap-4 text-left px-3 py-2 rounded-lg border ${a===e?`border-[var(--line-2)] bg-[var(--surface-2)]`:`border-transparent hover:bg-[var(--surface-2)]`}`,children:[(0,i.jsx)(`span`,{className:`font-semibold text-[0.95rem]`,children:r.need}),(0,i.jsx)(`span`,{className:`relative h-2.5 rounded-full bg-[var(--bg)] overflow-hidden`,children:(0,i.jsx)(`span`,{className:`absolute inset-y-0 left-0 rounded-full transition-all duration-700`,style:{width:`${r.v}%`,background:n(r.hub),boxShadow:`0 0 12px ${n(r.hub)}`}})}),(0,i.jsx)(`span`,{className:`mono text-[0.68rem] text-right`,style:{color:n(r.hub)},children:r.hub===`yes`?`IN PLACE`:r.hub===`building`?`BUILDING`:`BLOCKED`})]},r.need)),(0,i.jsxs)(`div`,{className:`cap px-3 pt-3 flex flex-wrap gap-4`,children:[(0,i.jsx)(`span`,{children:`Bar = how far the hub has this today (qualitative)`}),(0,i.jsxs)(`span`,{children:[(0,i.jsx)(`span`,{style:{color:`var(--rust)`},children:`■`}),` a farm alone has none of the eight`]})]})]}),(0,i.jsxs)(`div`,{className:`panel p-6 frame-in`,children:[(0,i.jsx)(`div`,{className:`cap`,children:`What a lender needs`}),(0,i.jsx)(`h3`,{className:`display text-[1.8rem] mt-1`,children:f[e].need}),(0,i.jsx)(`p`,{className:`dim mt-3 m-0`,children:f[e].note}),(0,i.jsxs)(`div`,{className:`mt-5 pt-4 border-t border-[var(--line)] grid grid-cols-2 gap-3`,children:[(0,i.jsxs)(`div`,{children:[(0,i.jsx)(`div`,{className:`cap`,children:`A farm`}),(0,i.jsx)(`div`,{className:`font-bold`,style:{color:`var(--rust)`},children:`✕ none`})]}),(0,i.jsxs)(`div`,{children:[(0,i.jsx)(`div`,{className:`cap`,children:`The hub`}),(0,i.jsx)(`div`,{className:`font-bold`,style:{color:n(f[e].hub)},children:f[e].hub===`yes`?`✓ in place`:f[e].hub===`building`?`… building`:`⊘ blocked`})]})]})]},e)]})}var m=[{who:`Policy makers`,sees:`A national blueprint that is already in operation. The hub is a function that can take legal form, covering grading, tracing and contracting, under ownership that adapts cluster by cluster.`,stuck:`Forming a rural SME or FPO involves a prolonged regulatory and institutional process; a registered cooperative can struggle even to open a bank account. The legal form for a farmer-owned economic entity is the single question that blocks everything above it.`},{who:`Lenders & financial institutions`,sees:`The borrower is an entity rather than an individual farmer, with predictability, visibility, cash-flow data, diversification and a committed offtaker already in place. Credit risk has sat with buyers since 2022; the hub itself is the next borrower.`,stuck:`Farm-level lending in Pakistan has not proved sustainable, as the sector recognises. VGreen is building the entity that can be lent to, and requires the products that can lend to it.`},{who:`Processors, exporters & industry`,sees:`One reliable, predictable point to contract against, with quality set at the farm and traced through the hub. Import substitution on paste, spice and dried produce that is already grown here.`,stuck:`Fifteen cycles, four crops, national processors and container export, with buyer names kept off every public page as a matter of policy.`},{who:`Development & impact partners`,sees:`The model earns its own revenue from the work it does: service and management fees, input margin and procurement margin. Alongside that it has built climate adaptation that has held in the field, women operating hubs and taking decisions in their own right, and rural youth at 35% of the workforce. The structure is designed to be replicated by others.`,stuck:`Four questions are still being worked out in the field: access to credit, insurance, a governance model that holds at scale, and climate. Each is being tested rather than assumed, and none has arrived at a complete answer. They are set out in full below.`}];function h(){let[e,t]=(0,r.useState)(0);return(0,i.jsxs)(`div`,{className:`grid lg:grid-cols-[320px_1fr] gap-8 items-start`,children:[(0,i.jsx)(`div`,{className:`grid gap-2`,children:m.map((n,r)=>(0,i.jsx)(`button`,{onClick:()=>t(r),"aria-pressed":r===e,className:`text-left rounded-lg border px-5 py-4 font-bold text-[1rem] transition-colors ${r===e?`bg-[var(--gold)] text-[#06110B] border-[var(--gold)]`:`panel hover:bg-[var(--surface-2)]`}`,style:{fontFamily:`'Bricolage Grotesque', system-ui, sans-serif`},children:n.who},n.who))}),(0,i.jsxs)(`div`,{className:`panel p-7 md:p-9 frame-in grid gap-7`,children:[(0,i.jsxs)(`div`,{children:[(0,i.jsx)(`div`,{className:`cap`,children:`What you are looking at`}),(0,i.jsx)(`p`,{className:`text-[1.2rem] mt-2 m-0 max-w-[58ch]`,children:m[e].sees})]}),(0,i.jsxs)(`div`,{className:`border-t border-[var(--line)] pt-6`,children:[(0,i.jsx)(`div`,{className:`cap`,children:`Where it is stuck`}),(0,i.jsx)(`p`,{className:`dim mt-2 m-0 max-w-[58ch]`,children:m[e].stuck})]})]},e)]})}function g(){let[e,t]=(0,r.useState)(!1);return(0,i.jsxs)(i.Fragment,{children:[(0,i.jsxs)(`section`,{className:`hero relative overflow-hidden snap flex flex-col`,style:{padding:`32px 0`,height:`auto`,minHeight:`calc(100vh - 64px)`},children:[(0,i.jsx)(a,{}),(0,i.jsxs)(`div`,{className:`wrap relative flex-1 flex flex-col justify-center gap-6`,children:[(0,i.jsxs)(`h1`,{className:`display text-[clamp(2.6rem,6.2vw,5.8rem)] m-0 max-w-[14ch]`,children:[`Pakistan must export `,(0,i.jsx)(`span`,{style:{color:`var(--gold)`},children:`food systems.`})]}),(0,i.jsx)(`p`,{className:`dim text-[clamp(1.02rem,1.25vw,1.2rem)] leading-relaxed max-w-[46ch] m-0`,children:`Production volume is adequate. What is missing is a competitive value-chain layer close to where the crop is grown, and an entity inside it that a bank can lend to.`})]})]}),(0,i.jsx)(`section`,{className:`sec`,children:(0,i.jsxs)(`div`,{className:`wrap`,children:[(0,i.jsxs)(`div`,{className:`sec-head`,children:[(0,i.jsx)(`span`,{className:`eyebrow`,children:`The diagnosis`}),(0,i.jsx)(`h2`,{children:`The missing middle`}),(0,i.jsx)(`p`,{children:`Scattered farms, a distant market, and nothing in between that holds value, holds a price, or holds a lender's attention. The hub is that layer.`})]}),(0,i.jsxs)(`div`,{className:`flex gap-2 mb-4`,children:[(0,i.jsx)(`button`,{className:`btn ${e?``:`on`}`,onClick:()=>t(!1),"aria-pressed":!e,children:`Without the hub`}),(0,i.jsx)(`button`,{className:`btn green ${e?`on`:``}`,onClick:()=>t(!0),"aria-pressed":e,children:`With the hub`})]}),(0,i.jsxs)(`figure`,{className:`fig m-0 panel p-4 md:p-6`,children:[(0,i.jsx)(d,{hub:e}),(0,i.jsx)(`figcaption`,{className:`cap mt-2`,children:e?`Farms organised into groups, linked two ways to the hub: produce in, value and a residual return out to every member. The hub holds the price, the quality and the contract. It is today’s rung on a longer pathway: village hub → district hub → provincial → a national, farmer-owned marketing and export company.`:`Unorganised farms, each on its own. Up to 40% of a horticulture crop lost between farm and market; a price that arrives only after the crop exists.`})]})]})}),(0,i.jsx)(`section`,{className:`sec`,children:(0,i.jsxs)(`div`,{className:`wrap`,children:[(0,i.jsxs)(`div`,{className:`sec-head`,children:[(0,i.jsx)(`span`,{className:`eyebrow`,children:`The thesis`}),(0,i.jsx)(`h2`,{children:`Farmers aren't unbankable. The layer that would make them bankable was never built.`}),(0,i.jsx)(`p`,{children:`The ingredient that makes anything lendable is missing at the farm. The model builds a stable, lendable layer between farm and market: an economic entity around the farm that holds what a lender requires, so that finance can reach the farmer.`})]}),(0,i.jsx)(p,{})]})}),(0,i.jsx)(`section`,{className:`sec`,children:(0,i.jsxs)(`div`,{className:`wrap`,children:[(0,i.jsxs)(`div`,{className:`sec-head`,children:[(0,i.jsx)(`span`,{className:`eyebrow`,children:`The structure`}),(0,i.jsx)(`h2`,{children:`Four readers, one structure`}),(0,i.jsx)(`p`,{children:`Each audience sees a different part of the same structure, and is blocked by a different part of the same problem.`})]}),(0,i.jsx)(h,{})]})}),(0,i.jsx)(`section`,{className:`sec`,children:(0,i.jsxs)(`div`,{className:`wrap`,children:[(0,i.jsxs)(`div`,{className:`sec-head`,children:[(0,i.jsx)(`span`,{className:`eyebrow`,children:`Stated plainly`}),(0,i.jsx)(`h2`,{children:`What is not solved`})]}),(0,i.jsx)(`div`,{className:`grid md:grid-cols-2 gap-4`,children:[[`Access to credit`,`Farm-level lending has not proved sustainable, and the hub cannot yet borrow in its own name. The entity that a lender could assess is still being formed, and the products that would lend to it do not exist in the market today.`,`var(--rust)`],[`Governance`,`One model is needed. Several have been tried across four hubs: VGreen-majority, 51/49, community-majority and community-managed. The experiment is still running, and no single model can yet be identified with high confidence as the one that holds at scale.`,`var(--rust)`],[`Insurance`,`Hub assets are uninsurable or prohibitively priced today. A product was piloted in 2024 and did not hold. Without an insurable, traceable asset base, the hub cannot be secured against.`,`var(--gold)`],[`Climate`,`The risk has moved from VGreen to the buyer, and then to three first-loss partners. It has not yet moved to a structure that survives a bad decade. The gap the current model still carries is the one that broke the 2021 model: a bad season with no party built to absorb it.`,`var(--rust)`]].map(([e,t,n])=>(0,i.jsxs)(`div`,{className:`panel p-7 border-t-4`,style:{borderTopColor:n},children:[(0,i.jsx)(`h3`,{className:`display text-[1.5rem]`,children:e}),(0,i.jsx)(`p`,{className:`dim mt-3 m-0`,children:t})]},e))}),(0,i.jsxs)(`div`,{className:`grid lg:grid-cols-[1fr_1fr] gap-10 mt-12 items-center`,children:[(0,i.jsx)(`p`,{className:`display text-[clamp(1.6rem,3.2vw,2.6rem)] m-0`,children:`The foundation is laid.`}),(0,i.jsx)(`p`,{className:`dim text-[1.1rem] m-0`,children:`VGreen exists to design, develop, test and validate rural institutional structures, to attract the capital that allows others to follow the same footprint, and to give the country a blueprint it can apply: a capability and governance model built to work at national scale. The farmer becomes the hub. The hub becomes an enterprise. The enterprises become the country's food system.`})]})]})}),(0,i.jsxs)(`section`,{className:`sec relative overflow-hidden`,style:{minHeight:0,padding:`56px 0`},children:[(0,i.jsx)(n,{tone:`green`,side:`bottom`}),(0,i.jsxs)(`div`,{className:`wrap relative text-center grid gap-3 justify-items-center`,children:[(0,i.jsx)(`span`,{className:`eyebrow`,children:`Work with VGreen`}),(0,i.jsxs)(`h2`,{className:`text-[clamp(1.3rem,2.2vw,1.8rem)] m-0 max-w-[48ch]`,children:[`Policy, lending, first-loss and value-chain development: `,(0,i.jsx)(`span`,{style:{color:`var(--gold)`},children:`one point of contact.`})]}),(0,i.jsxs)(`div`,{className:`flex flex-wrap gap-3 justify-center`,children:[(0,i.jsx)(`a`,{className:`btn primary`,href:`mailto:partner@vgreen.com.pk?subject=Partnership enquiry: VGreen hubs`,children:`partner@vgreen.com.pk →`}),(0,i.jsx)(`a`,{className:`btn`,href:`tel:+923005003041`,children:`+92 300 5003041`})]})]})]})]})}export{g as default};
+import {
+  r as e,
+  t
+} from "./vendor-Bfx28lbG.js";
+import {
+  t as n
+} from "./CalmBackdrop-CDqYysf7.js";
+var r = e(),
+  i = t();
+
+function a() {
+  let e = (0, r.useId)().replace(/:/g, ``),
+    t = Array.from({
+      length: 14
+    });
+  return (0, i.jsx)(`div`, {
+    className: `absolute inset-0 pointer-events-none overflow-hidden`,
+    "aria-hidden": !0,
+    children: (0, i.jsxs)(`svg`, {
+      viewBox: `0 0 1400 620`,
+      preserveAspectRatio: `xMidYMax slice`,
+      className: `absolute inset-0 w-full h-full`,
+      children: [(0, i.jsxs)(`defs`, {
+        children: [(0, i.jsxs)(`linearGradient`, {
+          id: `sky-${e}`,
+          x1: `0`,
+          y1: `0`,
+          x2: `0`,
+          y2: `1`,
+          children: [(0, i.jsx)(`stop`, {
+            offset: `0`,
+            stopColor: `#06110B`
+          }), (0, i.jsx)(`stop`, {
+            offset: `1`,
+            stopColor: `#0B1F16`
+          })]
+        }), (0, i.jsxs)(`linearGradient`, {
+          id: `ground-${e}`,
+          x1: `0`,
+          y1: `0`,
+          x2: `0`,
+          y2: `1`,
+          children: [(0, i.jsx)(`stop`, {
+            offset: `0`,
+            stopColor: `#0E2B1E`
+          }), (0, i.jsx)(`stop`, {
+            offset: `1`,
+            stopColor: `#06110B`
+          })]
+        }), (0, i.jsxs)(`linearGradient`, {
+          id: `veil-${e}`,
+          x1: `0`,
+          y1: `0`,
+          x2: `0`,
+          y2: `1`,
+          children: [(0, i.jsx)(`stop`, {
+            offset: `0`,
+            stopColor: `#06110B`,
+            stopOpacity: `0.55`
+          }), (0, i.jsx)(`stop`, {
+            offset: `0.55`,
+            stopColor: `#06110B`,
+            stopOpacity: `0.1`
+          }), (0, i.jsx)(`stop`, {
+            offset: `1`,
+            stopColor: `#06110B`,
+            stopOpacity: `0.7`
+          })]
+        }), (0, i.jsxs)(`radialGradient`, {
+          id: `lamp-${e}`,
+          children: [(0, i.jsx)(`stop`, {
+            offset: `0`,
+            stopColor: `#FFD27A`,
+            stopOpacity: `0.55`
+          }), (0, i.jsx)(`stop`, {
+            offset: `1`,
+            stopColor: `#FFB627`,
+            stopOpacity: `0`
+          })]
+        })]
+      }), (0, i.jsx)(`rect`, {
+        width: `1400`,
+        height: `620`,
+        fill: `url(#sky-${e})`
+      }), (0, i.jsxs)(`g`, {
+        fill: `#10231A`,
+        stroke: `#7FE3A8`,
+        strokeOpacity: `0.28`,
+        children: [
+          [
+            [960, 330, 40, 90],
+            [1006, 300, 34, 120],
+            [1046, 350, 50, 70],
+            [1102, 270, 44, 150],
+            [1152, 320, 36, 100],
+            [1194, 290, 56, 130],
+            [1256, 340, 40, 80]
+          ].map(([e, t, n, r], a) => (0, i.jsxs)(`g`, {
+            children: [(0, i.jsx)(`rect`, {
+              x: e,
+              y: t,
+              width: n,
+              height: r
+            }), Array.from({
+              length: Math.floor(r / 18)
+            }).map((r, o) => (0, i.jsx)(`rect`, {
+              x: e + 6,
+              y: t + 8 + o * 18,
+              width: n - 12,
+              height: `5`,
+              fill: `#FFD27A`,
+              opacity: (a + o) % 3 == 0 ? .55 : .18,
+              stroke: `none`
+            }, o))]
+          }, a)), (0, i.jsx)(`text`, {
+            x: `1120`,
+            y: `255`,
+            textAnchor: `middle`,
+            fontSize: `11`,
+            fill: `#A6BBAD`,
+            fontFamily: `JetBrains Mono, monospace`,
+            letterSpacing: `2`,
+            stroke: `none`,
+            children: `PROCESSORS · BANKS · MARKETS`
+          })
+        ]
+      }), (0, i.jsx)(`path`, {
+        d: `M0 420 Q700 380 1400 420 V620 H0 Z`,
+        fill: `url(#ground-${e})`
+      }), (0, i.jsx)(`g`, {
+        stroke: `#35C776`,
+        strokeOpacity: `0.28`,
+        strokeWidth: `1.2`,
+        fill: `none`,
+        children: t.map((e, t) => {
+          let n = -60 + t * 70;
+          return (0, i.jsx)(`path`, {
+            d: `M ${n} 640 Q ${n+120} 520 ${760+t*2} 418`
+          }, t)
+        })
+      }), (0, i.jsxs)(`g`, {
+        transform: `translate(720 330)`,
+        children: [(0, i.jsx)(`path`, {
+          d: `M0 90 V30 L60 0 L120 30 V90 Z`,
+          fill: `#16301F`,
+          stroke: `#7FE3A8`,
+          strokeOpacity: `0.6`,
+          strokeWidth: `1.5`
+        }), (0, i.jsx)(`rect`, {
+          x: `120`,
+          y: `42`,
+          width: `70`,
+          height: `48`,
+          fill: `#10231A`,
+          stroke: `#7FE3A8`,
+          strokeOpacity: `0.5`
+        }), (0, i.jsx)(`rect`, {
+          x: `46`,
+          y: `52`,
+          width: `28`,
+          height: `38`,
+          fill: `#FFD27A`,
+          opacity: `0.85`
+        }), (0, i.jsx)(`circle`, {
+          cx: `60`,
+          cy: `72`,
+          r: `70`,
+          fill: `url(#lamp-${e})`,
+          className: `pulse`
+        }), (0, i.jsx)(`rect`, {
+          x: `132`,
+          y: `52`,
+          width: `14`,
+          height: `10`,
+          fill: `#FFD27A`,
+          opacity: `0.6`
+        }), (0, i.jsx)(`rect`, {
+          x: `164`,
+          y: `52`,
+          width: `14`,
+          height: `10`,
+          fill: `#FFD27A`,
+          opacity: `0.6`
+        }), (0, i.jsx)(`text`, {
+          x: `60`,
+          y: `112`,
+          textAnchor: `middle`,
+          fontSize: `10.5`,
+          fill: `#7FE3A8`,
+          fontFamily: `JetBrains Mono, monospace`,
+          letterSpacing: `2`,
+          children: `THE HUB · THE LENDABLE LAYER`
+        })]
+      }), (0, i.jsx)(`path`, {
+        d: `M120 560 C 450 520, 640 440, 780 420 C 900 400, 980 380, 1130 372`,
+        fill: `none`,
+        stroke: `#FFB627`,
+        strokeWidth: `2`,
+        strokeDasharray: `6 6`,
+        className: `dash`,
+        opacity: `0.8`
+      }), (0, i.jsx)(`circle`, {
+        cx: `120`,
+        cy: `560`,
+        r: `4`,
+        fill: `#35C776`
+      }), (0, i.jsx)(`circle`, {
+        cx: `1130`,
+        cy: `372`,
+        r: `4`,
+        fill: `#FFB627`
+      }), (0, i.jsx)(`rect`, {
+        width: `1400`,
+        height: `620`,
+        fill: `url(#veil-${e})`
+      })]
+    })
+  })
+}
+var o = [`Consistent quality`, `Testing & certification near the farm`, `Value addition before the crop leaves`, `Contract management`, `Traceable records`],
+  s = [
+    [`Attracts capital`, `the layer that makes the system lendable and creditable`],
+    [`Capacity → outcomes`, `crop-specific agronomy and self-governance lift the farm`],
+    [`Aggregation → price consistency`, `volume and quality a processor contracts against, every cycle`],
+    [`Loss removed`, `up to 40% of a horticulture crop is lost farm to market; keeping it is value`]
+  ];
+
+function c(e, t = 11) {
+  let n = t,
+    r = () => (n = (n * 9301 + 49297) % 233280, n / 233280);
+  return Array.from({
+    length: e
+  }, () => [r(), r()])
+}
+var l = c(36),
+  u = [`Village hub`, `District hub`, `Provincial`, `National (export co.)`];
+
+function d({
+  hub: e
+}) {
+  return (0, i.jsxs)(`svg`, {
+    viewBox: `0 0 1000 ${e?430:340}`,
+    role: `img`,
+    "aria-label": e ? `With the hub: farms organised into groups, each linked two ways to the hub, with produce in and value and a residual return out, and the hub linked to the market. Below: the pathway this hub is one rung on, running from village hub to district hub to provincial, then to a national farmer marketing and export company.` : `Without the hub: scattered, unorganised farms send produce individually toward the market; crop loss and price shocks hit on the way.`,
+    children: [(0, i.jsx)(`defs`, {
+      children: (0, i.jsx)(`marker`, {
+        id: `pipeArrow`,
+        viewBox: `0 0 10 10`,
+        refX: `9`,
+        refY: `5`,
+        markerWidth: `7`,
+        markerHeight: `7`,
+        orient: `auto`,
+        children: (0, i.jsx)(`path`, {
+          d: `M0 0 L10 5 L0 10 z`,
+          fill: `var(--dim)`
+        })
+      })
+    }), (0, i.jsx)(`text`, {
+      x: `30`,
+      y: `26`,
+      className: `mono`,
+      fontSize: `10`,
+      letterSpacing: `2`,
+      fill: `var(--dim)`,
+      children: e ? `FARMS · ORGANISED` : `FARMS · SCATTERED`
+    }), (0, i.jsx)(`text`, {
+      x: e ? 630 : 470,
+      y: `26`,
+      textAnchor: `middle`,
+      className: `mono`,
+      fontSize: `10`,
+      letterSpacing: `2`,
+      fill: `var(--dim)`,
+      children: e ? `THE HUB` : `THE MISSING MIDDLE`
+    }), (0, i.jsx)(`text`, {
+      x: 908,
+      y: `26`,
+      textAnchor: `middle`,
+      className: `mono`,
+      fontSize: `10`,
+      letterSpacing: `2`,
+      fill: `var(--dim)`,
+      children: `MARKET`
+    }), e ? (0, i.jsxs)(`g`, {
+      children: [
+        [0, 1, 2, 3].map(e => {
+          let t = 110 + e % 2 * 130,
+            n = 105 + Math.floor(e / 2) * 130,
+            r = `M ${t+34} ${n} L 450 170`,
+            a = `M 450 180 L ${t+34} ${n+12}`;
+          return (0, i.jsxs)(`g`, {
+            children: [(0, i.jsx)(`circle`, {
+              cx: t,
+              cy: n,
+              r: `44`,
+              fill: `none`,
+              stroke: `var(--line-2)`,
+              strokeDasharray: `3 4`
+            }), Array.from({
+              length: 9
+            }).map((e, r) => {
+              let a = r / 9 * Math.PI * 2;
+              return (0, i.jsx)(`circle`, {
+                cx: t + Math.cos(a) * 26,
+                cy: n + Math.sin(a) * 26,
+                r: `3.2`,
+                fill: `var(--green)`
+              }, r)
+            }), (0, i.jsx)(`path`, {
+              d: r,
+              stroke: `var(--green)`,
+              strokeOpacity: `0.35`,
+              fill: `none`
+            }), (0, i.jsx)(`path`, {
+              d: a,
+              stroke: `var(--gold)`,
+              strokeOpacity: `0.35`,
+              fill: `none`
+            }), (0, i.jsx)(`circle`, {
+              r: `3`,
+              fill: `var(--green)`,
+              children: (0, i.jsx)(`animateMotion`, {
+                dur: `3.2s`,
+                begin: `${e*.6}s`,
+                repeatCount: `indefinite`,
+                path: r
+              })
+            }), (0, i.jsx)(`circle`, {
+              r: `3`,
+              fill: `var(--gold)`,
+              children: (0, i.jsx)(`animateMotion`, {
+                dur: `3.2s`,
+                begin: `${e*.6+1.4}s`,
+                repeatCount: `indefinite`,
+                path: a
+              })
+            })]
+          }, e)
+        }), (0, i.jsxs)(`text`, {
+          x: `30`,
+          y: `318`,
+          className: `mono`,
+          fontSize: `9.5`,
+          fill: `var(--dim)`,
+          children: [(0, i.jsx)(`tspan`, {
+            fill: `var(--green)`,
+            children: `●`
+          }), ` produce in \xA0 `, (0, i.jsx)(`tspan`, {
+            fill: `var(--gold)`,
+            children: `●`
+          }), ` value and a residual return to every member`]
+        }), (0, i.jsx)(`rect`, {
+          x: `450`,
+          y: `52`,
+          width: `360`,
+          height: `240`,
+          rx: `10`,
+          fill: `var(--green-glow)`,
+          stroke: `var(--green)`,
+          strokeWidth: `1.5`
+        }), (0, i.jsx)(`text`, {
+          x: `468`,
+          y: `78`,
+          className: `mono`,
+          fontSize: `9.5`,
+          letterSpacing: `1.5`,
+          fill: `var(--green-2)`,
+          children: `WHAT THE MIDDLE DOES`
+        }), s.map(([e, t], n) => (0, i.jsxs)(`g`, {
+          transform: `translate(468 ${106+n*46})`,
+          children: [(0, i.jsx)(`rect`, {
+            width: `8`,
+            height: `8`,
+            rx: `2`,
+            y: `-7`,
+            fill: `var(--green)`
+          }), (0, i.jsx)(`text`, {
+            x: `15`,
+            y: `0`,
+            fontSize: `12.5`,
+            fontWeight: `700`,
+            fill: `var(--text)`,
+            children: e
+          }), (0, i.jsx)(`text`, {
+            x: `15`,
+            y: `16`,
+            fontSize: `10`,
+            fill: `var(--dim)`,
+            children: t
+          })]
+        }, e)), (0, i.jsx)(`path`, {
+          d: `M 810 170 L 820 170`,
+          stroke: `var(--line-2)`,
+          strokeWidth: `1.5`,
+          markerEnd: `url(#pipeArrow)`
+        }), (0, i.jsx)(`line`, {
+          x1: `30`,
+          y1: `345`,
+          x2: `970`,
+          y2: `345`,
+          stroke: `var(--line)`
+        }), (0, i.jsx)(`text`, {
+          x: `30`,
+          y: `368`,
+          className: `mono`,
+          fontSize: `9.5`,
+          letterSpacing: `1.5`,
+          fill: `var(--dim)`,
+          children: `THE PATHWAY THIS HUB IS ONE RUNG ON`
+        }), u.map((e, t) => {
+          let n = [150, 400, 650, 900][t];
+          return (0, i.jsxs)(`g`, {
+            children: [t < u.length - 1 && (0, i.jsx)(`path`, {
+              d: `M ${n+66} 400 L ${[150,400,650,900][t+1]-66} 400`,
+              stroke: `var(--line-2)`,
+              strokeWidth: `1.5`,
+              markerEnd: `url(#pipeArrow)`
+            }), (0, i.jsx)(`rect`, {
+              x: n - 64,
+              y: 384,
+              width: `128`,
+              height: `32`,
+              rx: `16`,
+              fill: t === 0 ? `var(--green-glow)` : `var(--surface-2)`,
+              stroke: t === 0 ? `var(--green)` : `var(--line-2)`,
+              strokeWidth: t === 0 ? 1.5 : 1
+            }), (0, i.jsx)(`text`, {
+              x: n,
+              y: 404,
+              textAnchor: `middle`,
+              fontSize: `10.5`,
+              fontWeight: `700`,
+              fill: t === 0 ? `var(--green-2)` : `var(--dim)`,
+              children: e
+            }), t === 0 && (0, i.jsx)(`text`, {
+              x: n,
+              y: 430,
+              textAnchor: `middle`,
+              className: `mono`,
+              fontSize: `8.5`,
+              letterSpacing: `1`,
+              fill: `var(--green-2)`,
+              children: `YOU ARE HERE`
+            })]
+          }, e)
+        })
+      ]
+    }) : (0, i.jsxs)(`g`, {
+      children: [l.map(([e, t], n) => {
+        let r = 30 + e * 250,
+          a = 50 + t * 260,
+          o = `M ${r} ${a} L 820 ${170+(t-.5)*80}`;
+        return (0, i.jsxs)(`g`, {
+          children: [(0, i.jsx)(`path`, {
+            d: o,
+            stroke: `rgba(238,243,236,0.07)`,
+            fill: `none`
+          }), (0, i.jsx)(`circle`, {
+            cx: r,
+            cy: a,
+            r: `3.2`,
+            fill: `var(--dim)`
+          }), n % 4 == 0 && (0, i.jsxs)(`circle`, {
+            r: `3`,
+            fill: `var(--rust)`,
+            children: [(0, i.jsx)(`animateMotion`, {
+              dur: `${5+n%5}s`,
+              begin: `${n%7*.5}s`,
+              repeatCount: `indefinite`,
+              path: o
+            }), (0, i.jsx)(`animate`, {
+              attributeName: `opacity`,
+              values: `1;1;0.15;0`,
+              keyTimes: `0;0.3;0.8;1`,
+              dur: `${5+n%5}s`,
+              begin: `${n%7*.5}s`,
+              repeatCount: `indefinite`
+            })]
+          })]
+        }, n)
+      }), (0, i.jsx)(`rect`, {
+        x: `300`,
+        y: `52`,
+        width: `340`,
+        height: `240`,
+        rx: `10`,
+        fill: `var(--bg-2)`,
+        stroke: `var(--rust)`,
+        strokeWidth: `1.5`,
+        strokeDasharray: `6 5`
+      }), (0, i.jsx)(`text`, {
+        x: `318`,
+        y: `78`,
+        className: `mono`,
+        fontSize: `9.5`,
+        letterSpacing: `1.5`,
+        fill: `var(--rust)`,
+        children: `MISSING`
+      }), o.map((e, t) => (0, i.jsxs)(`g`, {
+        transform: `translate(318 ${100+t*22})`,
+        children: [(0, i.jsx)(`rect`, {
+          width: `8`,
+          height: `8`,
+          rx: `2`,
+          y: `-7`,
+          fill: `var(--rust)`,
+          opacity: `0.5`
+        }), (0, i.jsx)(`text`, {
+          x: `15`,
+          y: `0`,
+          fontSize: `11.5`,
+          fill: `var(--dim)`,
+          style: {
+            textDecoration: `line-through`
+          },
+          children: e
+        })]
+      }, e)), (0, i.jsxs)(`g`, {
+        transform: `translate(318 232)`,
+        children: [(0, i.jsx)(`text`, {
+          x: `0`,
+          y: `0`,
+          fontSize: `12`,
+          fontWeight: `700`,
+          fill: `var(--rust)`,
+          children: `Loss: up to 40% of a horticulture crop`
+        }), (0, i.jsx)(`text`, {
+          x: `0`,
+          y: `22`,
+          fontSize: `12`,
+          fontWeight: `700`,
+          fill: `var(--rust)`,
+          children: `Price shocks: the price arrives last`
+        })]
+      })]
+    }), (0, i.jsxs)(`g`, {
+      transform: `translate(825 120)`,
+      children: [(0, i.jsx)(`rect`, {
+        width: `165`,
+        height: `100`,
+        rx: `8`,
+        fill: `var(--surface)`,
+        stroke: `var(--line-2)`
+      }), (0, i.jsx)(`text`, {
+        x: `14`,
+        y: `32`,
+        fontSize: `15`,
+        fontWeight: `800`,
+        fill: `var(--text)`,
+        style: {
+          fontFamily: `'Bricolage Grotesque', system-ui, sans-serif`
+        },
+        children: `Market`
+      }), (0, i.jsx)(`text`, {
+        x: `14`,
+        y: `54`,
+        fontSize: `11`,
+        fill: `var(--dim)`,
+        children: `processors, exporters`
+      }), (0, i.jsx)(`text`, {
+        x: `14`,
+        y: `72`,
+        fontSize: `11`,
+        fill: `var(--dim)`,
+        children: e ? `contracts before sowing` : `imports what it could grow`
+      })]
+    })]
+  })
+}
+var f = [{
+  need: `Predictability`,
+  farm: `no`,
+  hub: `yes`,
+  v: 92,
+  note: `Buyer contract before sowing; fifteen complete cycles.`
+}, {
+  need: `Visibility`,
+  farm: `no`,
+  hub: `yes`,
+  v: 88,
+  note: `Cluster mapping, farmer registration, satellite crop health, traceability records.`
+}, {
+  need: `Cash-flow data`,
+  farm: `no`,
+  hub: `yes`,
+  v: 85,
+  note: `Every settlement runs through the hub and is recorded there.`
+}, {
+  need: `Diversification`,
+  farm: `no`,
+  hub: `yes`,
+  v: 80,
+  note: `11 value chains across 18 clusters. Nine crops leave the hub: four under contract to processors and exporters, and five consolidated and sold on through other channels. No single buyer carries the whole book.`
+}, {
+  need: `Market access`,
+  farm: `no`,
+  hub: `yes`,
+  v: 90,
+  note: `National processors and container export, on contract.`
+}, {
+  need: `Economic entity: legal form`,
+  farm: `no`,
+  hub: `building`,
+  v: 40,
+  note: `The hub has to become a business that can hold a contract and a loan. No FPO is yet formally structured; five villages act as custodian on a semi-formal basis. This is the blocking question.`
+}, {
+  need: `Governance`,
+  farm: `no`,
+  hub: `building`,
+  v: 28,
+  note: `Several models have been tried across four hubs and the design is still evolving. No single model can yet be identified with high confidence.`
+}, {
+  need: `Insurable asset base`,
+  farm: `no`,
+  hub: `blocked`,
+  v: 15,
+  note: `Insurers either decline to cover hub assets or price that cover prohibitively.`
+}];
+
+function p() {
+  let [e, t] = (0, r.useState)(0), n = e => e === `yes` ? `var(--green)` : e === `building` ? `var(--gold)` : `var(--rust)`;
+  return (0, i.jsxs)(`div`, {
+    className: `grid lg:grid-cols-[1fr_340px] gap-8 items-start`,
+    children: [(0, i.jsxs)(`div`, {
+      className: `panel p-2 md:p-4`,
+      children: [f.map((r, a) => (0, i.jsxs)(`button`, {
+        onClick: () => t(a),
+        "aria-pressed": a === e,
+        className: `w-full grid grid-cols-[150px_1fr_70px] md:grid-cols-[190px_1fr_90px] items-center gap-4 text-left px-3 py-2 rounded-lg border ${a===e?`border-[var(--line-2)] bg-[var(--surface-2)]`:`border-transparent hover:bg-[var(--surface-2)]`}`,
+        children: [(0, i.jsx)(`span`, {
+          className: `font-semibold text-[0.95rem]`,
+          children: r.need
+        }), (0, i.jsx)(`span`, {
+          className: `relative h-2.5 rounded-full bg-[var(--bg)] overflow-hidden`,
+          children: (0, i.jsx)(`span`, {
+            className: `absolute inset-y-0 left-0 rounded-full transition-all duration-700`,
+            style: {
+              width: `${r.v}%`,
+              background: n(r.hub),
+              boxShadow: `0 0 12px ${n(r.hub)}`
+            }
+          })
+        }), (0, i.jsx)(`span`, {
+          className: `mono text-[0.68rem] text-right`,
+          style: {
+            color: n(r.hub)
+          },
+          children: r.hub === `yes` ? `IN PLACE` : r.hub === `building` ? `BUILDING` : `BLOCKED`
+        })]
+      }, r.need)), (0, i.jsxs)(`div`, {
+        className: `cap px-3 pt-3 flex flex-wrap gap-4`,
+        children: [(0, i.jsx)(`span`, {
+          children: `Bar = how far the hub has this today (qualitative)`
+        }), (0, i.jsxs)(`span`, {
+          children: [(0, i.jsx)(`span`, {
+            style: {
+              color: `var(--rust)`
+            },
+            children: `■`
+          }), ` a farm alone has none of the eight`]
+        })]
+      })]
+    }), (0, i.jsxs)(`div`, {
+      className: `panel p-6 frame-in`,
+      children: [(0, i.jsx)(`div`, {
+        className: `cap`,
+        children: `What a lender needs`
+      }), (0, i.jsx)(`h3`, {
+        className: `display text-[1.8rem] mt-1`,
+        children: f[e].need
+      }), (0, i.jsx)(`p`, {
+        className: `dim mt-3 m-0`,
+        children: f[e].note
+      }), (0, i.jsxs)(`div`, {
+        className: `mt-5 pt-4 border-t border-[var(--line)] grid grid-cols-2 gap-3`,
+        children: [(0, i.jsxs)(`div`, {
+          children: [(0, i.jsx)(`div`, {
+            className: `cap`,
+            children: `A farm`
+          }), (0, i.jsx)(`div`, {
+            className: `font-bold`,
+            style: {
+              color: `var(--rust)`
+            },
+            children: `✕ none`
+          })]
+        }), (0, i.jsxs)(`div`, {
+          children: [(0, i.jsx)(`div`, {
+            className: `cap`,
+            children: `The hub`
+          }), (0, i.jsx)(`div`, {
+            className: `font-bold`,
+            style: {
+              color: n(f[e].hub)
+            },
+            children: f[e].hub === `yes` ? `✓ in place` : f[e].hub === `building` ? `… building` : `⊘ blocked`
+          })]
+        })]
+      })]
+    }, e)]
+  })
+}
+var m = [{
+  who: `Policy makers`,
+  sees: `A national blueprint that is already in operation. The hub is a function that can take legal form, covering grading, tracing and contracting, under ownership that adapts cluster by cluster.`,
+  stuck: `Forming a rural SME or FPO involves a prolonged regulatory and institutional process; a registered cooperative can struggle even to open a bank account. The legal form for a farmer-owned economic entity is the single question that blocks everything above it.`
+}, {
+  who: `Lenders & financial institutions`,
+  sees: `The borrower is an entity rather than an individual farmer, with predictability, visibility, cash-flow data, diversification and a committed offtaker already in place. Credit risk has sat with buyers since 2022; the hub itself is the next borrower.`,
+  stuck: `Farm-level lending in Pakistan has not proved sustainable, as the sector recognises. VGreen is building the entity that can be lent to, and requires the products that can lend to it.`
+}, {
+  who: `Processors, exporters & industry`,
+  sees: `One reliable, predictable point to contract against, with quality set at the farm and traced through the hub. Import substitution on paste, spice and dried produce that is already grown here.`,
+  stuck: `Fifteen cycles, four crops, national processors and container export, with buyer names kept off every public page as a matter of policy.`
+}, {
+  who: `Development & impact partners`,
+  sees: `The model earns its own revenue from the work it does: service and management fees, input margin and procurement margin. Alongside that it has built climate adaptation that has held in the field, women operating hubs and taking decisions in their own right, and rural youth at 35% of the workforce. The structure is designed to be replicated by others.`,
+  stuck: `Four questions are still being worked out in the field: access to credit, insurance, a governance model that holds at scale, and climate. Each is being tested rather than assumed, and none has arrived at a complete answer. They are set out in full below.`
+}];
+
+function h() {
+  let [e, t] = (0, r.useState)(0);
+  return (0, i.jsxs)(`div`, {
+    className: `grid lg:grid-cols-[320px_1fr] gap-8 items-start`,
+    children: [(0, i.jsx)(`div`, {
+      className: `grid gap-2`,
+      children: m.map((n, r) => (0, i.jsx)(`button`, {
+        onClick: () => t(r),
+        "aria-pressed": r === e,
+        className: `text-left rounded-lg border px-5 py-4 font-bold text-[1rem] transition-colors ${r===e?`bg-[var(--gold)] text-[#06110B] border-[var(--gold)]`:`panel hover:bg-[var(--surface-2)]`}`,
+        style: {
+          fontFamily: `'Bricolage Grotesque', system-ui, sans-serif`
+        },
+        children: n.who
+      }, n.who))
+    }), (0, i.jsxs)(`div`, {
+      className: `panel p-7 md:p-9 frame-in grid gap-7`,
+      children: [(0, i.jsxs)(`div`, {
+        children: [(0, i.jsx)(`div`, {
+          className: `cap`,
+          children: `What you are looking at`
+        }), (0, i.jsx)(`p`, {
+          className: `text-[1.2rem] mt-2 m-0 max-w-[58ch]`,
+          children: m[e].sees
+        })]
+      }), (0, i.jsxs)(`div`, {
+        className: `border-t border-[var(--line)] pt-6`,
+        children: [(0, i.jsx)(`div`, {
+          className: `cap`,
+          children: `Where it is stuck`
+        }), (0, i.jsx)(`p`, {
+          className: `dim mt-2 m-0 max-w-[58ch]`,
+          children: m[e].stuck
+        })]
+      })]
+    }, e)]
+  })
+}
+
+function g() {
+  let [e, t] = (0, r.useState)(!1);
+  return (0, i.jsxs)(i.Fragment, {
+    children: [(0, i.jsxs)(`section`, {
+      className: `hero relative overflow-hidden snap flex flex-col`,
+      style: {
+        padding: `32px 0`,
+        height: `auto`,
+        minHeight: `calc(100vh - 64px)`
+      },
+      children: [(0, i.jsx)(a, {}), (0, i.jsxs)(`div`, {
+        className: `wrap relative flex-1 flex flex-col justify-center gap-6`,
+        children: [(0, i.jsxs)(`h1`, {
+          className: `display text-[clamp(2.6rem,6.2vw,5.8rem)] m-0 max-w-[14ch]`,
+          children: [`Pakistan must export `, (0, i.jsx)(`span`, {
+            style: {
+              color: `var(--gold)`
+            },
+            children: `food systems.`
+          })]
+        }), (0, i.jsx)(`p`, {
+          className: `dim text-[clamp(1.02rem,1.25vw,1.2rem)] leading-relaxed max-w-[46ch] m-0`,
+          children: `Production volume is adequate. What is missing is a competitive value-chain layer close to where the crop is grown, and an entity inside it that a bank can lend to.`
+        })]
+      })]
+    }), (0, i.jsx)(`section`, {
+      className: `sec`,
+      children: (0, i.jsxs)(`div`, {
+        className: `wrap`,
+        children: [(0, i.jsxs)(`div`, {
+          className: `sec-head`,
+          children: [(0, i.jsx)(`span`, {
+            className: `eyebrow`,
+            children: `The diagnosis`
+          }), (0, i.jsx)(`h2`, {
+            children: `The missing middle`
+          }), (0, i.jsx)(`p`, {
+            children: `Scattered farms, a distant market, and nothing in between that holds value, holds a price, or holds a lender's attention. The hub is that layer.`
+          })]
+        }), (0, i.jsxs)(`div`, {
+          className: `flex gap-2 mb-4`,
+          children: [(0, i.jsx)(`button`, {
+            className: `btn ${e?``:`on`}`,
+            onClick: () => t(!1),
+            "aria-pressed": !e,
+            children: `Without the hub`
+          }), (0, i.jsx)(`button`, {
+            className: `btn green ${e?`on`:``}`,
+            onClick: () => t(!0),
+            "aria-pressed": e,
+            children: `With the hub`
+          })]
+        }), (0, i.jsxs)(`figure`, {
+          className: `fig m-0 panel p-4 md:p-6`,
+          children: [(0, i.jsx)(d, {
+            hub: e
+          }), (0, i.jsx)(`figcaption`, {
+            className: `cap mt-2`,
+            children: e ? `Farms organised into groups, linked two ways to the hub: produce in, value and a residual return out to every member. The hub holds the price, the quality and the contract. It is today’s rung on a longer pathway: village hub → district hub → provincial → a national, farmer-owned marketing and export company.` : `Unorganised farms, each on its own. Up to 40% of a horticulture crop lost between farm and market; a price that arrives only after the crop exists.`
+          })]
+        })]
+      })
+    }), (0, i.jsx)(`section`, {
+      className: `sec`,
+      children: (0, i.jsxs)(`div`, {
+        className: `wrap`,
+        children: [(0, i.jsxs)(`div`, {
+          className: `sec-head`,
+          children: [(0, i.jsx)(`span`, {
+            className: `eyebrow`,
+            children: `The thesis`
+          }), (0, i.jsx)(`h2`, {
+            children: `Farmers aren't unbankable. The layer that would make them bankable was never built.`
+          }), (0, i.jsx)(`p`, {
+            children: `The ingredient that makes anything lendable is missing at the farm. The model builds a stable, lendable layer between farm and market: an economic entity around the farm that holds what a lender requires, so that finance can reach the farmer.`
+          })]
+        }), (0, i.jsx)(p, {})]
+      })
+    }), (0, i.jsx)(`section`, {
+      className: `sec`,
+      children: (0, i.jsxs)(`div`, {
+        className: `wrap`,
+        children: [(0, i.jsxs)(`div`, {
+          className: `sec-head`,
+          children: [(0, i.jsx)(`span`, {
+            className: `eyebrow`,
+            children: `The structure`
+          }), (0, i.jsx)(`h2`, {
+            children: `Four readers, one structure`
+          }), (0, i.jsx)(`p`, {
+            children: `Each audience sees a different part of the same structure, and is blocked by a different part of the same problem.`
+          })]
+        }), (0, i.jsx)(h, {})]
+      })
+    }), (0, i.jsx)(`section`, {
+      className: `sec`,
+      children: (0, i.jsxs)(`div`, {
+        className: `wrap`,
+        children: [(0, i.jsxs)(`div`, {
+          className: `sec-head`,
+          children: [(0, i.jsx)(`span`, {
+            className: `eyebrow`,
+            children: `Stated plainly`
+          }), (0, i.jsx)(`h2`, {
+            children: `What is not solved`
+          })]
+        }), (0, i.jsx)(`div`, {
+          className: `grid md:grid-cols-2 gap-4`,
+          children: [
+            [`Access to credit`, `Farm-level lending has not proved sustainable, and the hub cannot yet borrow in its own name. The entity that a lender could assess is still being formed, and the products that would lend to it do not exist in the market today.`, `var(--rust)`],
+            [`Governance`, `One model is needed. Several have been tried across four hubs: VGreen-majority, 51/49, community-majority and community-managed. The experiment is still running, and no single model can yet be identified with high confidence as the one that holds at scale.`, `var(--rust)`],
+            [`Insurance`, `Hub assets are uninsurable or prohibitively priced today. A product was piloted in 2024 and did not hold. Without an insurable, traceable asset base, the hub cannot be secured against.`, `var(--gold)`],
+            [`Climate`, `The risk has moved from VGreen to the buyer, and then to three first-loss partners. It has not yet moved to a structure that survives a bad decade. The gap the current model still carries is the one that broke the 2021 model: a bad season with no party built to absorb it.`, `var(--rust)`]
+          ].map(([e, t, n]) => (0, i.jsxs)(`div`, {
+            className: `panel p-7 border-t-4`,
+            style: {
+              borderTopColor: n
+            },
+            children: [(0, i.jsx)(`h3`, {
+              className: `display text-[1.5rem]`,
+              children: e
+            }), (0, i.jsx)(`p`, {
+              className: `dim mt-3 m-0`,
+              children: t
+            })]
+          }, e))
+        }), (0, i.jsxs)(`div`, {
+          className: `grid lg:grid-cols-[1fr_1fr] gap-10 mt-12 items-center`,
+          children: [(0, i.jsx)(`p`, {
+            className: `display text-[clamp(1.6rem,3.2vw,2.6rem)] m-0`,
+            children: `The foundation is laid.`
+          }), (0, i.jsx)(`p`, {
+            className: `dim text-[1.1rem] m-0`,
+            children: `VGreen exists to design, develop, test and validate rural institutional structures, to attract the capital that allows others to follow the same footprint, and to give the country a blueprint it can apply: a capability and governance model built to work at national scale. The farmer becomes the hub. The hub becomes an enterprise. The enterprises become the country's food system.`
+          })]
+        })]
+      })
+    }), (0, i.jsxs)(`section`, {
+      className: `sec relative overflow-hidden`,
+      style: {
+        minHeight: 0,
+        padding: `56px 0`
+      },
+      children: [(0, i.jsx)(n, {
+        tone: `green`,
+        side: `bottom`
+      }), (0, i.jsxs)(`div`, {
+        className: `wrap relative text-center grid gap-3 justify-items-center`,
+        children: [(0, i.jsx)(`span`, {
+          className: `eyebrow`,
+          children: `Work with VGreen`
+        }), (0, i.jsxs)(`h2`, {
+          className: `text-[clamp(1.3rem,2.2vw,1.8rem)] m-0 max-w-[48ch]`,
+          children: [`Policy, lending, first-loss and value-chain development: `, (0, i.jsx)(`span`, {
+            style: {
+              color: `var(--gold)`
+            },
+            children: `one point of contact.`
+          })]
+        }), (0, i.jsxs)(`div`, {
+          className: `flex flex-wrap gap-3 justify-center`,
+          children: [(0, i.jsx)(`a`, {
+            className: `btn primary`,
+            href: `mailto:partner@vgreen.com.pk?subject=Partnership enquiry: VGreen hubs`,
+            children: `partner@vgreen.com.pk →`
+          }), (0, i.jsx)(`a`, {
+            className: `btn`,
+            href: `tel:+923005003041`,
+            children: `+92 300 5003041`
+          })]
+        })]
+      })]
+    })]
+  })
+}
+export {
+  g as
+  default
+};

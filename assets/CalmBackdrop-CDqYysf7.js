@@ -1,1 +1,37 @@
-import{t as e}from"./vendor-Bfx28lbG.js";var t=e();function n({tone:e=`gold`,side:n=`right`}){let r=e===`gold`?`var(--gold-glow)`:`var(--green-glow)`,i=n===`right`?`80%`:n===`left`?`20%`:`50%`,a=n===`bottom`?`110%`:`35%`,o=n===`right`?`linear-gradient(90deg, transparent 38%, #000 70%)`:n===`left`?`linear-gradient(270deg, transparent 38%, #000 70%)`:`linear-gradient(0deg, #000 0%, transparent 70%)`;return(0,t.jsxs)(`div`,{className:`absolute inset-0 pointer-events-none`,"aria-hidden":!0,children:[(0,t.jsx)(`div`,{className:`absolute inset-0`,style:{background:`radial-gradient(700px 360px at ${i} ${a}, ${r}, transparent 70%)`,opacity:.8}}),(0,t.jsx)(`div`,{className:`absolute inset-0`,style:{backgroundImage:`radial-gradient(rgba(238,243,236,0.22) 1px, transparent 1.4px)`,backgroundSize:`26px 26px`,opacity:.5,WebkitMaskImage:o,maskImage:o}})]})}export{n as t};
+import {
+  t as e
+} from "./vendor-Bfx28lbG.js";
+var t = e();
+
+function n({
+  tone: e = `gold`,
+  side: n = `right`
+}) {
+  let r = e === `gold` ? `var(--gold-glow)` : `var(--green-glow)`,
+    i = n === `right` ? `80%` : n === `left` ? `20%` : `50%`,
+    a = n === `bottom` ? `110%` : `35%`,
+    o = n === `right` ? `linear-gradient(90deg, transparent 38%, #000 70%)` : n === `left` ? `linear-gradient(270deg, transparent 38%, #000 70%)` : `linear-gradient(0deg, #000 0%, transparent 70%)`;
+  return (0, t.jsxs)(`div`, {
+    className: `absolute inset-0 pointer-events-none`,
+    "aria-hidden": !0,
+    children: [(0, t.jsx)(`div`, {
+      className: `absolute inset-0`,
+      style: {
+        background: `radial-gradient(700px 360px at ${i} ${a}, ${r}, transparent 70%)`,
+        opacity: .8
+      }
+    }), (0, t.jsx)(`div`, {
+      className: `absolute inset-0`,
+      style: {
+        backgroundImage: `radial-gradient(rgba(238,243,236,0.22) 1px, transparent 1.4px)`,
+        backgroundSize: `26px 26px`,
+        opacity: .5,
+        WebkitMaskImage: o,
+        maskImage: o
+      }
+    })]
+  })
+}
+export {
+  n as t
+};
