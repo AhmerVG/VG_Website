@@ -54,7 +54,7 @@
      </head>
 
      <body>
-          <!-- Old #/hash links (the site used hash routing until 9 Sep 2026) are redirected to the
+          <!-- Old #/hash links (the site used hash routing until 9 Sep 2026) are redirected  to the
          real address before anything else runs, so bookmarks and links already shared do not
          all land on the homepage. Safe to remove once those links have aged out. -->
           <script>(function () { var h = location.hash; if (h.indexOf('#/') !== 0) { return } var t = h.slice(1); if (t.length > 1 && t.charAt(t.length - 1) === '/') { t = t.slice(0, -1) } var m = { '/': '/', '/farmers': '/farmers/', '/farmers/small': '/farmers/', '/farmers/large': '/farmers/large/', '/hubs': '/hubs/', '/processors': '/processors/', '/exporters': '/exporters/', '/model': '/model/', '/institutions': '/institutions/', '/energy': '/energy/', '/story': '/story/', '/notices': '/notices/' }; var d = m[t] || '/'; if (d !== location.pathname) { location.replace(d) } else { history.replaceState({}, '', d) } })()</script>
